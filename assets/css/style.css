@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #202020;
+}
+
+
+/*                                       CALLOUT */
+
+.player-open embed {
+    background-color: pink;
+}
+
+/*                                       BOOTSTRAP */
+
+.callout-container {
+    height: 100vh;
+    background: url('/assets/images/club-crowd.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.dot-overlay {
+    background: url('/assets/images/MyDotOverlay6x6fade.png') center center fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(26, 26, 26, 0.7);
+     
+}
+
+.about {
+    text-align: center;
+}
+
+.what-is-deep {
+    display: inline-block;
+}
+
+
+.who-we-are {
+    
+    display: inline-block;
+}
+
+.what-we-do {
+    display: inline-block;
+}
