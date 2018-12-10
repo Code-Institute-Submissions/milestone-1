@@ -6,9 +6,7 @@ body {
 
 /*                                       CALLOUT */
 
-.player-open embed {
-    background-color: pink;
-}
+
 
 /*                                       BOOTSTRAP */
 
@@ -38,20 +36,10 @@ body {
      
 }
 
-.about {
-    text-align: center;
-}
 
-.what-is-deep {
-    display: inline-block;
-}
+/*     ------------------------- About Us Section  */
 
-
-.who-we-are {
-    
-    display: inline-block;
-}
-
-.what-we-do {
-    display: inline-block;
+.video, col-xs-12, col-sm-12 {
+  background-color: pink;
+  padding: 0;
 }
