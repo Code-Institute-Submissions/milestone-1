@@ -1,3 +1,5 @@
+/*
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #202020;
@@ -10,6 +12,7 @@ body {
 
 /*                                       BOOTSTRAP */
 
+/*
 .callout-container {
     height: 100vh;
     background: url('/assets/images/club-crowd-smcom.jpg') no-repeat center center fixed;
@@ -39,6 +42,7 @@ body {
 
 /*     ------------------------- About Us Section  */
 
+/*
 .video, col-xs-12, col-sm-12 {
   background-color: pink;
   padding: 0;
