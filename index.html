@@ -69,16 +69,25 @@
                     <p class="lead">World class DJs for your venue</p>
                     <hr class="my-4">
                     <p>Stay with the vibe and subscribe</p>
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Subscribe</a>
+           <!--         <a class="btn btn-success btn-lg" href="#subscribeModel" role="button">Subscribe</a>  -->
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subscribe-modal">
+  Subscribe
+</button>
+
 
                 </div>
 
             </div>
+            
+            
+            
         </div>
-
+        
+        
     </div>
 
-
+    
 
     <!-- ABOUT SECTION -->
 
@@ -273,46 +282,95 @@
 
      <div id="Events" class="container-fluid">
          <div class="row">
-             <div class="col-12">
+             <div class="col-12"> 
      
-    <div class="table-responsive-md">
-    
-    <table class="table table-striped table-dark">
-        <thead>
-            <tr>
+  <div class="table-responsive-sm">          
+  <table class="table table-striped table-dark">
+    <thead>
+      <tr>
+       
+        <th scope="col">DJ Artist</th>
+        <th scope="col">Venue</th>
+        <th scope="col">Date</th>
 
-                <th scope="col">Artist</th>
-                <th scope="col">Date</th>
-                <th scope="col">Location</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
+      </tr>
+    </thead>
+    <tbody>
+        
+      <tr>
+        <td>Glenn Underground</td>
+        <td>Icon - Limerick Ireland</td>
+        <td>December 23<sup><small>rd</small></sup> 2018 - 10<small>pm</small></td>
 
-                <td>Glenn Underground</td>
-                <td>December 23rd</td>
-                <td>the club in someplace</td>
-            </tr>
-            <tr>
+      </tr>
+      
+                  <tr>
 
                 <td>Fish Go Deep</td>
-                <td>December 24th</td>
-                <td>some club Limerick City</td>
+                <td>Sr. Henrys - Cork Ireland</td>
+                <td>December 27<sup><small>th</small></sup> 2018 - 9<small>pm</small></td>
             </tr>
+            
             <tr>
 
                 <td>Boo Williams</td>
-                <td>December 27th</td>
-                <td>cork city another club</td>
+                <td>Club Lemon - Dublin Ireland</td>
+                <td>December 28<sup><small>th</small></sup> 2018 - 10<small>pm</small></td>
             </tr>
-        </tbody>
-    </table>
+            
+    </tbody>
+  </table>
+  </div>
+
+
+
+
+
 
     </div>
+    </div> 
+    </div>
 
+    <!-- contact section -->
+    
+    <div id="Contact" class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2>Contact us</h2>
+            </div>
+            
+            
+        </div>
+    </div>  <!-- contact section conrtainer fluid end -->
+
+
+    <!-- Button trigger modal -->
+<!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Launch demo modal
+</button>
+-->
+
+<!-- Modal -->
+<div class="modal fade" id="subscribe-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Subscribe to our montly newsletter.</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
     </div>
-    </div>
-    </div>
+  </div>
+</div>
+
 
 
 
@@ -326,8 +384,10 @@
 $('body').scrollspy({ target: '#Home' });
 
 
-
 </script>
+
+
+
 
 </body>
 
