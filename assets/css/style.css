@@ -14,7 +14,7 @@ body {
 
 .callout-container {
     height: 100vh;
-    background: url('/assets/images/club-crowd-smcom.jpg') no-repeat center center fixed;
+    background: url('/assets/images/clubCrowd.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,15 +28,17 @@ body {
 }
 
 .dot-overlay {
-    background: url('/assets/images/MyDotOverlay6x6fade.png') center center fixed;
+    background: url('/assets/images/MyDotOverlay6x6greyAlpha50.png') center center fixed  rgba(24,24,24, 0.8);
     position: absolute;
+    
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(26, 26, 26, 0.7);
-     
+  /*  background-color: rgba(26, 26, 26, 0.7);  */
+  /*   opacity: 0.7;  */
 }
+
 
 
 /*     ------------------------- About Us Section  */
@@ -53,5 +55,31 @@ td {
 
 }
 
-/* scroll indicator */
+.jumbotron {
+    background-color: transparent;
+    color: lightgray;
+}
 
+
+.fas fa-compact-disc {
+    padding-right: 2em;
+}
+
+
+.dj-profile, club-scene, img {
+    width: 100%;
+    height: auto;
+}
+
+/*.club-scene img {
+    width: 100%;
+    height: auto;
+}*/
+
+#About h2 {
+    color: darkgrey;
+}
+
+#About p {
+    color: lightgray;
+}

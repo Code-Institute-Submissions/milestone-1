@@ -16,14 +16,14 @@
 
 
 
-<body data-spy="scroll" data-target="#Home" id="Home">
+<body data-spy="scroll" data-target="#navtest" id="Home">
 
 
     <!-- NAV -->
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
+    <nav id="navtest" class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
         <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#Home">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -56,8 +56,10 @@
 
     <!-- CALLOUT -->
 
-    <div id="Home" class="container-fluid callout-container">
+    <div id="Home" class="callout-container">
         <div class="dot-overlay">&nbsp;</div>
+
+<div class="container">
 
         <div class="row">
             <div class="col-12">
@@ -65,7 +67,7 @@
                 <div class="callout jumbotron text-center">
 
                     <h3>Music for your Mind, Body and Soul</h3>
-                    <h1 class="display-4">Deephouse</h1>
+                    <h1><i class="fas fa-compact-disc"></i>&nbsp;<strong>Deep</strong>house</h1>
                     <p class="lead">World class DJs for your venue</p>
                     <hr class="my-4">
                     <p>Stay with the vibe and subscribe</p>
@@ -83,7 +85,8 @@
             
             
         </div>
-        
+      
+        </div>
         
     </div>
 
@@ -103,7 +106,9 @@
 
         <div class="row">
             <div class="col-12 col-lg-4">
-                <h2>what is deep house?</h2>
+                <h2>what is deep house?
+                </h2>
+                <p>Deep house is a subgenre of house music. It originated in the 1980s, initially fusing elements of Chicago house with 1980s jazz-funk and touches of soul music.<br>Deep house tracks generally have a tempo of between 100 and 125 beats per minute (BPM). Its origins are attributed to Larry Heard's track 'Mystery of Love' in 1984. This style of house music can often have an acoustic feeling. </p>
             </div>
 
             <!-- who we are -->
@@ -134,18 +139,18 @@
         <div class="row">
 
             <div class="dj-profile col-12 col-md-6 col-lg-4">
-                <h3>Dj someone1</h3>
-                <img src="https://placebear.com/200/200"></img>
+                <h3>Dj Coder</h3>
+                <img src="/assets/images/DjCoder.jpg"></img>
             </div>
 
             <div class="dj-profile col-12 col-md-6 col-lg-4">
-                <h3>Dj someone2</h3>
-                <img src="https://placebear.com/200/200"></img>
+                <h3>Dj Python</h3>
+                <img src="/assets/images/djPyhton.jpg"></img>
             </div>
 
             <div class="dj-profile d-none d-lg-block col-lg-4">
-                <h3>Dj someone3</h3>
-                <img src="https://placebear.com/200/200"></img>
+                <h3>Miss CssStylin</h3>
+                <img src="/assets/images/MissCSSstylin.jpg"></img>
             </div>
 
 
@@ -163,20 +168,20 @@
 
         <div class="row">
 
-            <div class="col-12 col-sm-6 col-lg-3">
-                <img src="https://placebear.com/180/200"></img>
+            <div class="club-scene col-12 col-sm-6 col-lg-3">
+                <img src="/assets/images/clubScene-1.jpg"></img>
             </div>
 
-            <div class="col-12 col-sm-6 col-lg-3">
-                <img src="https://placebear.com/180/200"></img>
+            <div class="club-scene col-12 col-sm-6 col-lg-3">
+                <img src="/assets/images/clubScene-2.jpg"></img>
             </div>
 
-            <div class="d-none d-sm-block col-sm-6 col-lg-3">
-                <img src="https://placebear.com/180/200"></img>
+            <div class="club-scene d-none d-sm-block col-sm-6 col-lg-3">
+                <img src="/assets/images/clubScene-3.jpg"></img>
             </div>
 
-            <div class="d-none d-sm-block col-sm-6 col-lg-3">
-                <img src="https://placebear.com/180/200"></img>
+            <div class="club-scene d-none d-sm-block col-sm-6 col-lg-3">
+                <img src="/assets/images/clubScene-4.jpg"></img>
             </div>
 
 
@@ -278,12 +283,15 @@
     <!-- tracks and releases container fluid div end -->
 
 
-    <!-- tables -->
+    <!-- Events Section -->
 
      <div id="Events" class="container-fluid">
          <div class="row">
              <div class="col-12"> 
-     
+             <h2>Upcoming Events</h2>
+             <p>Find a quality night out near you</p>
+  
+  <!-- tables -->   
   <div class="table-responsive-sm">          
   <table class="table table-striped table-dark">
     <thead>
@@ -339,8 +347,111 @@
                 <h2>Contact us</h2>
             </div>
             
-            
+        </div>   <!-- contact us row end -->
+        
+     <!-- contact info and forms  -->
+     
+     <div class="row">
+         
+         <!-- side info -->
+         <div class="col-12 col-md-4">
+             <h4>contact information</h4>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, repudiandae aliquam enim dolorem nisi ab maxime dignissimos alias, rerum sit.</p>
+         </div>   <!-- side infor end -->
+         
+         
+         <div class="col-12 col-md-8">   <!-- colume -->
+             
+<form>
+    
+    <!-- first and last name -->
+    <div class="form-group form-row">
+    <div class="col-12 col-md-6">
+      <input type="text" class="form-control" placeholder="First name" required>
+    </div>
+    <div class="col-12 col-md-6">
+      <input type="text" class="form-control" placeholder="Last name" required>
+    </div>
+  </div>
+    <!-- first and last name end -->
+    
+    <!-- email and phone -->
+    <div class="form-group form-row">
+    <div class="col-12 col-md-6">
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  placeholder="Email" required>
+     <small id="emailhelp" class="form-text text-muted">We'll never share your email with anyone else.</small>  
+    </div>
+    <div class="col-12 col-md-6">
+      <input type="number" class="form-control" placeholder="Phone" required>
+    </div>
+  </div>
+
+    <!-- email and phone end -->
+    
+    <!-- country and select dj -->
+    <div class="form-group form-row">
+        <div class="col-12 col-md-6">
+            <select class="custom-select">
+  <option selected>Select country</option>
+  <option value="1">Ireland</option>
+  <option value="2">United Kingdom</option>
+  <option value="3">France</option>
+  <option value="4">Germany</option>
+  <option value="5">Neatherlands</option>
+  <option value="3">none</option>
+  
+</select>
         </div>
+        
+
+    
+        <div class="col-12 col-md-6">
+            <select class="custom-select">
+  <option selected>Select a dj</option>
+  <option value="1">Fish Go Deep</option>
+  <option value="2">Glenn Underground</option>
+  <option value="3">Boo Williams</option>
+  <option value="4">Germany</option>
+  <option value="5">Neatherlands</option>
+  <option value="3">none</option>
+  
+</select>
+        </div>
+        </div>
+
+        
+    
+    <!-- country and select dj end -->
+
+<!-- text field -->
+
+<div class="form-group form-row">
+    <div class="col-12">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+  </div>
+<!-- text field end -->
+    
+<div class="form-group form-row">
+    <div class="col-12">
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</div>
+    
+    
+</form>
+             
+
+         </div>   <!-- colume end -->
+         
+     </div>
+     
+     
+     <!-- contact info forms end -->
+        
+        
+        
     </div>  <!-- contact section conrtainer fluid end -->
 
 
@@ -361,15 +472,52 @@
         </button>
       </div>
       <div class="modal-body">
-        ...
+          
+        <!-- form -->
+        
+        <form>
+  <!--          <div class="form-group">
+            <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div>
+  </div>  -->
+            
+            
+            
+            
+  <div class="form-group">
+    <label for="exampleInputEmail1">Please enter a valid email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+ 
+ 
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+        
+        
+        <!-- ./ form -->
+        
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+ <!--       <button type="button" class="btn btn-primary">Save changes</button>  -->
       </div>
     </div>
   </div>
 </div>
+
+
+
+<!-- footer form -->
+
+
+<!-- fotter form end -->
 
 
 
@@ -378,15 +526,49 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-<!-- scripts -->
+<!-- smooth scrolling -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- smooth scrolling -->
 
-<script>
+<!-- scripts -->
+<!--
+ <script>
 $('body').scrollspy({ target: '#Home' });
 
 
+</script> 
+
+<!-- smooth scrolling -->
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
 </script>
 
 
+<!-- Smooth scroll end -->
 
 
 </body>
