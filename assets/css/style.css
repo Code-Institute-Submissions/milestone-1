@@ -69,6 +69,20 @@ td {
 .dj-profile, club-scene, img {
     width: 100%;
     height: auto;
+    border-radius: 15px;
+
+}
+
+.my-test {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 90%;
+    animation-name: jump;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 /*.club-scene img {
@@ -83,3 +97,19 @@ td {
 #About p {
     color: lightgray;
 }
+
+
+@keyframes jump {
+    from {
+        top: 90%;
+    }
+    
+    to {
+        top: 91%;
+    }
+}
+
+
+/* spinnin icon */
+
+#Home i { background:#43609C; }

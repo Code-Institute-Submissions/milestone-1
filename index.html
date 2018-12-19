@@ -23,7 +23,7 @@
 
     <nav id="navtest" class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
         <div class="container-fluid">
-        <a class="navbar-brand" href="#Home">Navbar</a>
+        <a class="navbar-brand" href="#Home"><i class="fas fa-compact-disc"></i>Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -87,6 +87,15 @@
         </div>
       
         </div>
+        
+        <!-- animated indicator test -->
+
+            <p class="my-test">derek</p>
+        
+
+        <!-- animated indicator test end -->
+        
+        
         
     </div>
 
@@ -570,6 +579,28 @@ $(document).ready(function(){
 
 <!-- Smooth scroll end -->
 
+
+
+<!-- spiining icons -->
+<script>
+$(window).scroll(function() {
+  
+  // get the variable of how far we've scrolled from the top
+  var offset = $(window).scrollTop();
+	offset     = offset * 10;
+
+  // add css transform with the offset variable
+  $('#Home i').css({
+    '-moz-transform': 'rotate(' + offset + 'deg)',
+    '-webkit-transform': 'rotate(' + offset + 'deg)',
+    '-o-transform': 'rotate(' + offset + 'deg)',
+    '-ms-transform': 'rotate(' + offset + 'deg)',
+    'transform': 'rotate(' + offset + 'deg)',
+  });
+  
+});
+</script>
+<!-- spinning icons end -->
 
 </body>
 
