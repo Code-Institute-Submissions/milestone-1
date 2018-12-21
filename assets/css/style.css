@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #202020;
     position: relative;
+    color: white;
 }
 
 
@@ -75,7 +76,7 @@ td {
 
 .my-test {
     position: absolute;
-    color: white;
+    color: rgba(255,255,255,0.5);
     text-align: center;
     top: 90%;
     animation-name: jump;
@@ -83,12 +84,64 @@ td {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+
+    font-size: x-large;
 }
+
+/* socila icons */
+
+ul, social-icons, li {
+    display: inline-block;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    
+
+}
+
+.social-icons li {
+    height: 50px;
+    width: 50px;
+    
+    background-color: #5d6565;
+    border-radius: 25px;
+    
+}
+
+.social-btn {
+    margin-right: 4rem;
+    color: white;
+    font-size: 1.5rem;
+
+    
+}
+
+.social-btn i {
+    margin-top: 13px;
+
+}
+
+
+
+
+/* social icons */
 
 /*.club-scene img {
     width: 100%;
     height: auto;
 }*/
+
+
+
+/* back to top */
+
+
+
+/* back to top end */
+
+
+
+
+
 
 #About h2 {
     color: darkgrey;
@@ -112,4 +165,14 @@ td {
 
 /* spinnin icon */
 
-#Home i { background:#43609C; }
+#Home i { background:rgba(0,0,0,0); }
+
+
+
+
+.footer-bottom .row {
+    background-color: #303030;
+
+}
+
+
