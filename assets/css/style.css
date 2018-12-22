@@ -134,7 +134,49 @@ ul, social-icons, li {
 
 /* back to top */
 
-
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom: 0.4em;
+	right: 0.5em;	
+}
+.scroll {
+	position:absolute;
+	right: 0.5em;
+	bottom: 0.2em;
+	background:#b2b2b2;
+	background:rgba(0,0,0,0);
+	padding: 5px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor:pointer;
+	transition: 0.1s;
+	-moz-transition: 0.1s;
+	-webkit-transition: 0.1s;
+	-o-transition: 0.1s; 		
+}
+.scroll:hover {
+	background:rgba(0,0,0,0);
+	transition: .5s;
+	-moz-transition: 0.1s;
+	-webkit-transition: 0.1s;
+	-o-transition: 0.1s; 
+	color: grey;
+}
+.scroll:hover .fas {
+	padding-top: 0.5em;
+}
+.scroll .fas {
+	font-size:30px;
+	margin-top:-5px;
+	margin-left:1px;
+	transition: 0.5s;
+	-moz-transition: 0.1s;
+	-webkit-transition: 0.1s;
+	-o-transition: 0.1s; 	
+}
 
 /* back to top end */
 
@@ -165,7 +207,7 @@ ul, social-icons, li {
 
 /* spinnin icon */
 
-#Home i { background:rgba(0,0,0,0); }
+/* #Home i { background:rgba(0,0,0,0); } */
 
 
 

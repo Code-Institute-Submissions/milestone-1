@@ -615,11 +615,16 @@
 <!-- footer end -->
 
 
-<!-- scrool to top testing 
+<!-- scrool to top testing -->
 
-<a href="#navbarNav" id="return-to-top"><i class="fas fa-compact-disc"></i>derek</a>
 
- scroll to top testing end -->
+<div class='scrolltop'>
+    <div class='scroll icon'><i class="fas fa-chevron-up"></i></div>
+</div>
+
+<!--<a href="#navbarNav" id="return-to-top"><i class="fas fa-compact-disc"></i>derek</a> -->
+
+ <!-- scroll to top testing end -->
 
 
 
@@ -685,7 +690,7 @@ $(window).scroll(function() {
 	offset     = offset * 10;
 
   // add css transform with the offset variable
-  $('#Home i').css({
+  $('#navtest i, #myHome i').css({
     '-moz-transform': 'rotate(' + offset + 'deg)',
     '-webkit-transform': 'rotate(' + offset + 'deg)',
     '-o-transform': 'rotate(' + offset + 'deg)',
@@ -694,6 +699,7 @@ $(window).scroll(function() {
   });
   
 });
+
 </script>
 <!-- spinning icons end -->
 
@@ -702,6 +708,14 @@ $(window).scroll(function() {
 
 <script>
 
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 110 ) {
+        $('.scrolltop:hidden').stop(true, true).fadeIn();
+    } else {
+        $('.scrolltop').stop(true, true).fadeOut();
+    }
+});
+$(function(){$(".scroll").click(function(){$("html,body").animate({scrollTop:$("#Home").offset().top},"1000");return false})})
 
 </script>
 <!-- scroll to top test end -->
