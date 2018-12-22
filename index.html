@@ -171,9 +171,11 @@
     <!-- club scenes images -->
 
     <div id="Media" class="container-fluid">
-        <row class="col-12">
+        <div class="row">
+        <div class="col-12">
             <h2>Media</h2>
-        </row>
+        </div>
+            </div>
 
         <div class="row">
 
@@ -619,7 +621,9 @@
 
 
 <div class='scrolltop'>
-    <div class='scroll icon'><i class="fas fa-chevron-up"></i></div>
+    <div class='scroll icon'><i class="fas fa-chevron-up"></i>
+    <div class="spin"><i class="fas fa-compact-disc"></i></div>
+    </div>
 </div>
 
 <!--<a href="#navbarNav" id="return-to-top"><i class="fas fa-compact-disc"></i>derek</a> -->
@@ -687,10 +691,10 @@ $(window).scroll(function() {
   
   // get the variable of how far we've scrolled from the top
   var offset = $(window).scrollTop();
-	offset     = offset * 10;
+	offset     = offset * 1;
 
   // add css transform with the offset variable
-  $('#navtest i, #myHome i').css({
+  $('#navtest i, #myHome i, .spin i').css({
     '-moz-transform': 'rotate(' + offset + 'deg)',
     '-webkit-transform': 'rotate(' + offset + 'deg)',
     '-o-transform': 'rotate(' + offset + 'deg)',
