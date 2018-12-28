@@ -6,16 +6,17 @@ body {
 }
 
 
-/*                                       CALLOUT */
+
+/*                                       NAVBAR */
 
 
 
-/*                                       BOOTSTRAP */
 
+/*                                       CONTAINERS */
 
 .callout-container {
     height: 100vh;
-    background: url('../images/clubCrowd.jpg') no-repeat center center fixed;
+    background: url("../images/clubCrowd.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -36,25 +37,22 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-  /*  background-color: rgba(26, 26, 26, 0.7);  */
-  /*   opacity: 0.7;  */
+}
+
+/*     ------------------------- About section  */
+
+#About h2 {
+    color: darkgrey;
+}
+
+#About p {
+    color: lightgray;
 }
 
 
 
-/*     ------------------------- About Us Section  */
 
-/*
-.video, col-xs-12, col-sm-12 {
-  background-color: pink;
-  padding: 0;
-}
-*/
-
-td {
-    white-space: nowrap;
-
-}
+/*                                    JUMBOTRON      */
 
 .jumbotron {
     background-color: transparent;
@@ -62,17 +60,7 @@ td {
 }
 
 
-.fas fa-compact-disc {
-    padding-right: 2em;
-}
-
-
-.dj-profile, club-scene, img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-
-}
+/*                                  BOUNCE DOWN ARROW    */
 
 .my-test {
     position: absolute;
@@ -88,7 +76,51 @@ td {
     font-size: x-large;
 }
 
-/* socila icons */
+
+
+
+
+
+/*                              DJ PROFILES SECTION */
+
+.dj-profile, club-scene, img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+
+}
+
+/*                             MEDIA SECTION    */
+/*                             Club scene images */
+
+
+/*                             Video and Info  */
+
+/*                             New Tracks and Mixes */
+
+
+
+/*                                     EVENTS SECTION  */
+
+
+td {
+    white-space: nowrap;
+
+}
+
+
+
+
+.fas fa-compact-disc {
+    padding-right: 2em;
+}
+
+
+
+
+/*                              CONTACT SECTION */
+
+/* social icons */
 
 ul, social-icons, li {
     display: inline-block;
@@ -108,10 +140,11 @@ ul, social-icons, li {
 }
 
 .social-btn {
-    margin-right: 4rem;
+/*    margin-right: 4rem; */
+
     color: white;
     font-size: 1.5rem;
-
+    
     
 }
 
@@ -119,17 +152,6 @@ ul, social-icons, li {
     margin-top: 13px;
 
 }
-
-
-
-
-/* social icons */
-
-/*.club-scene img {
-    width: 100%;
-    height: auto;
-}*/
-
 
 
 /* back to top */
@@ -184,16 +206,13 @@ ul, social-icons, li {
 
 
 
+/*                    FOOTER SECTION */
 
+.footer-bottom .row {
+    background-color: #303030;
 
-
-#About h2 {
-    color: darkgrey;
 }
 
-#About p {
-    color: lightgray;
-}
 
 
 @keyframes jump {
@@ -207,16 +226,6 @@ ul, social-icons, li {
 }
 
 
-/* spinnin icon */
 
-/* #Home i { background:rgba(0,0,0,0); } */
-
-
-
-
-.footer-bottom .row {
-    background-color: #303030;
-
-}
 
 
