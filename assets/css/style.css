@@ -9,7 +9,14 @@ body {
 
 /*                                       NAVBAR */
 
+.bg-dark {
+    background-color: rgba(0,0,0,0.4)!important;
+}
 
+.hvr-underline-from-center:before {
+    background: #5ff130 !important;
+    height: 2px !important;
+}
 
 
 /*                                       CONTAINERS */
@@ -113,7 +120,7 @@ td {
 
 .fas fa-compact-disc {
     padding-right: 2em;
-}
+} 
 
 
 
@@ -212,6 +219,7 @@ ul, social-icons, li {
     background-color: #303030;
 
 }
+
 
 
 
