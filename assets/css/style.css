@@ -13,9 +13,10 @@ body {
     background-color: rgba(0,0,0,0.4)!important;
 }
 
+#navtest 
 .hvr-underline-from-center:before {
-    background: #5ff130 !important;
-    height: 2px !important;
+    background: #5ff130;
+    height: 2px;
 }
 
 
