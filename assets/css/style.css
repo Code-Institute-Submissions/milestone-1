@@ -64,9 +64,38 @@ button:focus {
     color: lightgray;
 }
 
+.block-devider {
+    width: 50px;
+    height: 0.2em;
+    background-color: green;
+}
+
 .head-title {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
+}
+
+.about-wrapper {
+    background-color: #303030;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid rgba(255,255,255,0.2);
+    margin-bottom: 40px;
+    margin-top: 20px
+
+}
+
+.about-wrapper i {
+    display: block;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+
+.about-wrapper h2 {
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 20px;
 }
 
 .mixes-wrapper {
