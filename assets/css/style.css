@@ -19,6 +19,10 @@ body {
     height: 2px;
 }
 
+button:focus {
+  /*  outline: 1px dotted; */
+    outline: 0px auto -webkit-focus-ring-color;
+}
 
 /*                                       CONTAINERS */
 
@@ -57,6 +61,25 @@ body {
     color: lightgray;
 }
 
+.head-title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.mixes-wrapper {
+    border: 2px solid #353535;
+    border-left: hidden;
+    border-right: hidden;
+    padding-top: 16px ;
+    padding-bottom: 16px;
+    margin-bottom: 6px;
+    background-color: #25292c;
+}
+
+.dark .widget-controls-mid, .dark .widget-controls-top {
+    border-bottom-color: #1d6ab7;
+    background-color: aquamarine;
+}
 
 
 
@@ -106,7 +129,13 @@ body {
 
 /*                             New Tracks and Mixes */
 
-
+.player-wrap {
+    border: 2px solid gray;
+    padding: 6px;
+    background-color: rgba(255,255,255,0.05);
+    border-color: rgba(255,255,255,0.08);
+    border-radius: 4px
+}
 
 /*                                     EVENTS SECTION  */
 
