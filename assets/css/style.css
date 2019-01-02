@@ -70,10 +70,11 @@ button:focus {
     background-color: green;
 }
 
-.head-title {
+.head-title{
     text-align: center;
     padding-top: 80px;
 }
+
 
 .about-wrapper {
     background-color: #303030;
@@ -125,7 +126,7 @@ button:focus {
 
 /*                                  BOUNCE DOWN ARROW    */
 
-.my-test {
+.arrow-down-animation {
     position: absolute;
     color: rgba(255,255,255,0.5);
     text-align: center;
@@ -150,11 +151,75 @@ button:focus {
     width: 100%;
     height: auto;
     border-radius: 15px;
-
 }
+
+.dj-profile img {
+    cursor: pointer;
+}
+
+.profile-slide-overlay {
+    position: absolute;
+    top: 41px;
+    left: 15px;
+    right: 15px;
+    bottom: 0;
+    border-radius: 15px 0px 0px 15px;
+    border-right: 2px solid rgba(255,255,255,0.3);
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.6);
+    overflow: hidden;
+    width: 0;
+    cursor: pointer;
+    
+}
+
+.profile-slide-container:hover .profile-slide-overlay {
+    opacity: 1;
+    width: 40%;
+    
+}
+
+.profile-slide-text {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    
+}
+
+.profile-slide-text i, fas {
+    margin-bottom:10px;
+    display: block;
+    font-size: 1.5em; 
+    text-align: center;
+    color: green;
+}
+
+.profile-slide-text h3 {
+    text-align: center;
+    text-transform: uppercase;
+   font-size: 1.5em; 
+} 
+
+.profile-slide-text hr {
+    width: 2.5em;
+    height: auto;
+} 
+
+.profile-slide-text p {
+    font-size: 0.8em;
+    margin-bottom: 6px;
+} 
 
 /*                             MEDIA SECTION    */
 /*                             Club scene images */
+
+
 
 
 /*                             Video and Info  */
@@ -163,10 +228,10 @@ button:focus {
 
 .player-wrap {
     border: 2px solid gray;
-    padding: 6px;
+    padding: 10px;
     background-color: rgba(255,255,255,0.05);
     border-color: rgba(255,255,255,0.08);
-    border-radius: 4px
+    border-radius: 12px
 }
 
 /*                                     EVENTS SECTION  */
@@ -188,6 +253,15 @@ td {
 
 
 /*                              CONTACT SECTION */
+
+.form-wrap {
+    background-color: #303030;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 30px;
+    border: solid 2px rgba(255,255,255,0.2);
+}
+
 
 /* social icons */
 
@@ -283,7 +357,7 @@ ul, social-icons, li {
 }
 
 
-
+/* ANIMATIONS */
 
 @keyframes jump {
     from {
@@ -297,5 +371,127 @@ ul, social-icons, li {
 
 
 
+/* MEDIA QUEIRES */
+
+@media (max-width: 575px) {
+  
+.profile-slide-text i, fas {
+        margin-bottom: 5px;
+        font-size: 5vw;
+  }
+  
+.profile-slide-text h3 {
+    font-size: 3.5vw;
+}
+
+.profile-slide-text hr {
+    width: 1em;
+    height: auto;
+    margin-top: 6px;
+    
+}
+
+.profile-slide-text p {
+    font-size: 2.4vw;
+    margin-bottom: 6px;
+}    
+ 
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    
+.profile-slide-text i, fas {
+        margin-bottom: 5px;
+        font-size: 5vw;
+  }
+  
+.profile-slide-text h3 {
+    font-size: 3.5vw;
+}
+
+.profile-slide-text hr {
+    width: 1em;
+    height: auto;
+    
+}
+
+.profile-slide-text p {
+    font-size: 2.4vw;
+} 
+
+}
 
 
+@media (min-width: 768px) and (max-width: 991px) {
+    
+
+
+.profile-slide-text i, fas {
+    margin-bottom:6px;
+    font-size: 0.8em; 
+}
+
+.profile-slide-text h3 {
+    font-size: 0.8em;
+}
+
+.profile-slide-text hr {
+    width: 1.2em;
+    height: auto;
+    margin-top: 6px;
+}
+
+.profile-slide-text p {
+    font-size: 0.55em;
+    margin-bottom: 6px;
+} 
+    
+}
+
+@media (min-width: 992px) and (max-width: 1800px) {
+    
+.profile-slide-text i, fas {
+    margin-bottom: 4px;
+    font-size: 1.2vw;
+} 
+
+.profile-slide-text h3 {
+    font-size: 1.2vw;
+}
+
+.profile-slide-text hr {
+    width: 1em;
+    height: auto;
+    margin-top: 6px;
+}
+
+.profile-slide-text p {
+    font-size: 0.8vw;
+    margin-bottom: 6px;
+}
+
+}
+
+/* @media (min-width: 1200px) and (max-width: 1800px) {
+    
+.text i, fas {
+    margin-bottom: 4px;
+    font-size: 0.8vw;
+} 
+
+.text h3 {
+    font-size: 0.8vw;
+}
+
+.text hr {
+    width: 1em;
+    height: auto;
+    margin-top: 6px;
+}
+
+.text p {
+    font-size: 0.5vw;
+    margin-bottom: 6px;
+}
+    
+} */
