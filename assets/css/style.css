@@ -70,10 +70,12 @@ button:focus {
     background-color: green;
 }
 
-.head-title{
+.head-title {
     text-align: center;
     padding-top: 80px;
-}
+    margin-bottom: 50px;
+    color: darkgrey;
+} 
 
 
 .about-wrapper {
@@ -157,9 +159,25 @@ button:focus {
     cursor: pointer;
 }
 
+.dj-profile i {
+    color: red;
+}
+
+.dj-profile h3 {
+    text-align: center;
+    
+}
+
+.dj-block-devider {
+    background-color: green;
+    margin-top: 5px;
+    height: auto;
+    width: 120px;
+}
+
 .profile-slide-overlay {
     position: absolute;
-    top: 41px;
+    top: 58px;
     left: 15px;
     right: 15px;
     bottom: 0;
