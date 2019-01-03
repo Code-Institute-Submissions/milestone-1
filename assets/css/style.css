@@ -371,11 +371,20 @@ fas {
 
 /*                                     EVENTS SECTION  */
 
-td {
+#Events td {
     white-space: nowrap;
 
 }
 
+#Events h2 {
+    margin-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#Events hr {
+    margin-bottom: 60px;
+}
 
 
 
