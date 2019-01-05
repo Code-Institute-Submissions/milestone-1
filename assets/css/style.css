@@ -573,11 +573,34 @@ li {
 
 /*                    FOOTER SECTION */
 
-.footer-bottom .row {
+.footer-bottom {
     background-color: #303030;
 
 }
 
+.footer-info p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.footer-info a {
+    display: block;
+    text-align: center;
+    margin-top: 2px;
+    color: #00bae2;
+    font-size: 1.4em;
+}
+
+.footer-info a:hover {
+    color: #96c80d;
+}
+.footer-info {
+    padding-top:6px;
+    padding-bottom: 40px;
+}
+.copyright {
+    margin-bottom: 2px;
+}
 
 /* ANIMATIONS */
 
