@@ -73,7 +73,7 @@ section {
 
 .block-devider {
     width: 50px;
-    height: 0.2em;
+    height: 0.2rem;
     background-color: #96c80d;
 }
 
@@ -318,7 +318,6 @@ fas {
     font-size: 1.5em;
     margin-bottom: 40px;
     text-transform: uppercase;
-    text-transform: 
 }
 
 .video-info p {
@@ -371,10 +370,35 @@ fas {
 
 /*                                     EVENTS SECTION  */
 
-#Events td {
-    white-space: nowrap;
+/* tables colours */
 
+.table-dark {
+  /*  color: #f1e4e4; */
+    background-color: #303030;
 }
+
+.table-dark.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #404040;
+}
+
+.table-dark td, .table-dark th, .table-dark thead th {
+  border-color: #454545; 
+}
+
+.table thead th {
+    /* vertical-align: bottom; */
+    border-bottom: 2px solid #424242;
+}
+
+.table td, .table th {
+    /* padding: .75rem; */
+    /* vertical-align: top; */
+    border-top: 2px solid #424242;
+    border-bottom: 2px solid #424242;
+    border-right: 2px solid #424242;
+    border-left: 2px solid #424242;  
+}
+
 
 #Events h2 {
     margin-top: 80px;
@@ -382,18 +406,37 @@ fas {
     text-transform: uppercase;
 }
 
-#Events hr {
-    margin-bottom: 60px;
+#Events table{
+    margin-top: 60px;
+    white-space: nowrap;
+    text-align: center;
 }
-
 
 
 .fas fa-compact-disc {
     padding-right: 2em;
 }
 
+#Events table tr th {
+/*    text-align: center; */
+    font-size: 1.4em;
+    text-transform: uppercase;
+    width: 33.3333%;
+}
 
+#Events table tr th i {
+    display: block;
+    color: #96c80d;
+    font-size: 1.4em;
+    margin-bottom: 0.1em;
+}
 
+#Events td {
+ /*   text-align: center; */
+/*    white-space: nowrap;  */
+    padding-left: 1.4em;
+    padding-right: 1.4em; 
+}
 
 /*                              CONTACT SECTION */
 
@@ -419,11 +462,18 @@ fas {
 
 .contact-details i {
     color: #96c80d;
+    font-size: 1.5em;
 }
 
 .contact-details p {
     margin-top: 30px;
 }
+
+.contact-details h4 {
+    text-transform: uppercase;
+}
+
+
 .contact-details:hover {
     border: 1px solid #96c80d;
 }
@@ -440,7 +490,8 @@ li {
     margin-right: 0.7rem;
 
 
-}
+} 
+
 
 .social-icons li {
     height: 50px;
@@ -448,6 +499,7 @@ li {
 
     background-color: #5d6565;
     border-radius: 25px;
+    margin-bottom: 60px;   /* this is test can remove */
 
 }
 
