@@ -349,6 +349,8 @@ fas {
 }
 /*                             New Tracks and Mixes */
 
+
+
 .music-players-container h2 {
     text-align:center;
     text-transform: uppercase;
@@ -367,6 +369,8 @@ fas {
     border-color: rgba(255, 255, 255, 0.08);
     border-radius: 12px
 }
+
+
 
 /*                                     EVENTS SECTION  */
 
@@ -440,6 +444,67 @@ fas {
 
 /*                              CONTACT SECTION */
 
+
+.form-control,.custom-select {
+
+    background-color: #202020;
+    border: 2px solid #606060;
+    border-radius: 15px;
+    color: lightgray;
+}
+
+
+.custom-select:focus {
+  border: 2px solid #00bae2;
+  box-shadow: 0px 0px 4px 2px #00bae2;
+}
+
+
+.form-control:focus {
+    border: 2px solid #00bae2;
+    background-color: #202020;
+    box-shadow: 0px 0px 4px 2px #00bae2;
+    color: lightgray;
+}
+
+
+.btn-success {
+    color: #202020;
+    background-color: #00bae2;
+    border-color: #0092b3;
+    border-radius: 15px;
+
+}
+
+.btn-success:hover {
+    background-color: #0092b3;
+    border-color: #00bae2;
+    color: #505050;
+    box-shadow: 0px 0px 4px 2px #0092b3;
+}
+
+
+
+/*.custom-select {
+    color: #808080;
+    background-color: #202020;
+    border: 2px solid #606060;
+    border-radius: 15px;
+} */
+
+
+
+
+/*    booking container */
+.booking-form-entry {
+    margin-top: 1em;
+}
+
+.form-wrap .form-group small {
+    margin-bottom: 6px;
+
+}
+
 .form-wrap {
     background-color: #303030;
     border-radius: 15px;
@@ -448,6 +513,8 @@ fas {
     border: solid 2px rgba(255, 255, 255, 0.2);
 }
 
+
+/* get in touch */
 .contact-details {
     text-align: center;
     background-color: #303030;
@@ -589,6 +656,7 @@ li {
     margin-top: 2px;
     color: #00bae2;
     font-size: 1.4em;
+    text-decoration: none;
 }
 
 .footer-info a:hover {
