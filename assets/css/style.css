@@ -302,7 +302,7 @@ fas {
 
 .embed-responsive {
     border-radius: 15px;
- /*   border: 2px solid rgba(255,255,255,0.2); */
+    border: 2px solid rgba(255,255,255,0.2); 
 }
 
 .video-info i {
@@ -507,18 +507,19 @@ option[disabled] {
 
 
 .btn-success {
-    color: #202020;
+    color: #f2f2f2;
     background-color: #00bae2;
-    border-color: #0092b3;
+    border-color: #006880;
     border-radius: 15px;
+    text-transform: capitalize;
 
 }
 
 .btn-success:hover {
-    background-color: #0092b3;
-    border-color: #00bae2;
-    color: #505050;
-    box-shadow: 0px 0px 4px 2px #0092b3;
+    background-color: #33daff;
+    border-color: #006680;
+    color: #fff;
+    box-shadow: 0px 0px 6px 2px #0092b3;
 }
 
 
@@ -581,7 +582,7 @@ option[disabled] {
 
 
 .contact-details:hover {
-    border: 1px solid #96c80d;
+    border: 2px solid #96c80d;
 }
 
 
@@ -635,12 +636,13 @@ li {
 }
 
 .scroll {
+    color: #00bae2;
     position: absolute;
     right: 0.5em;
-    bottom: 0.2em;
+    bottom: 0.1em;
     background: #b2b2b2;
     background: rgba(0, 0, 0, 0);
-    padding: 5px;
+    padding: 1px;
     text-align: center;
     margin: 0 0 0 0;
     cursor: pointer;
@@ -656,15 +658,18 @@ li {
     -moz-transition: 0.1s;
     -webkit-transition: 0.1s;
     -o-transition: 0.1s;
-    color: grey;
+    color: #33daff;
 }
 
+
+/*
 .scroll:hover .fas {
-    padding-top: 0.5em;
-}
+    padding-top: 0.2em;
+
+} */
 
 .scroll .fas {
-    font-size: 30px;
+    font-size: 1.5rem;
     margin-top: -5px;
     margin-left: 1px;
     transition: 0.5s;
@@ -699,7 +704,7 @@ li {
 }
 
 .footer-info a:hover {
-    color: #96c80d;
+    color: #33daff;
 }
 .footer-info {
     padding-top:6px;
