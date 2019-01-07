@@ -9,6 +9,14 @@ body {
 
 /*                                       NAVBAR */
 
+.navbar-brand i,span{
+    color: #00bae2;
+}
+
+.navbar-brand strong {
+    color: #e6e6e6;
+}
+
 .bg-dark {
     background-color: rgba(24, 24, 24, 0.95)!important;
     border-bottom-style: solid;
@@ -52,6 +60,30 @@ button:focus {
     height: 100%;
     width: 100%;
 }
+
+/*  MODAL  SECTION */
+
+.modal-content {
+        background-color: #303030;
+        border: 2px solid #606060;
+        border-radius: 15px;
+}
+
+.modal-header {
+    border-bottom: 2px solid #606060;
+}
+
+.modal-footer {
+    border-top: 2px solid #606060;
+}
+
+.modal-footer .btn-secondary {
+    color: #e6e6e6;
+    background-color: #f141be;
+    border-color: #be0e8c;
+    border-radius: 15px;
+}
+
 
 /*     ------------------------- About section  */
 
@@ -134,6 +166,13 @@ section {
 
 /*                                    JUMBOTRON      */
 
+.jumbotron h1 {
+    color: #00bae2;
+}
+
+.jumbotron h1 strong {
+    color: #e6e6e6;
+}
 .jumbotron {
     background-color: transparent;
     color: lightgray;
@@ -144,7 +183,7 @@ section {
 
 .arrow-down-animation {
     position: absolute;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(150, 200, 13, 0.7);
     text-align: center;
     top: 90%;
     animation-name: jump;
@@ -235,7 +274,7 @@ fas {
     display: block;
     font-size: 1.5em;
     text-align: center;
-    color: #00bae2;
+    color: #96c80d;
 }
 
 .profile-slide-text h3 {
@@ -325,7 +364,12 @@ fas {
 .video-info p {
   font-size: 1em;  
   border-left: 2px solid #404040;
-    padding-left: 20px;
+  padding-left: 20px;
+  
+}
+
+.video-info span {
+    color: #e6e6e6;
 }
 
 .video-info strong {
@@ -691,9 +735,10 @@ li {
 
 }
 
-.footer-info p {
+.footer-info p,small {
     text-align: center;
     margin-bottom: 0;
+    color: #e6e6e6;
 }
 
 .footer-info a {
