@@ -650,12 +650,41 @@ li {
     height: 50px;
     width: 50px;
 
-    background-color: #5d6565;
+    background-color: #404040;
     border-radius: 25px;
     margin-bottom: 60px;   /* this is test can remove */
-
+    border: 2px solid #808080;
+}
+.fa-facebook-f {
+    padding-left: 9px;
+    padding-right: 9px;
 }
 
+.fa-twitter {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.social-icons a {
+    padding: 0.5rem;
+}
+
+.social-icons a:hover .fa-twitter {
+    color: #1da1f2;
+}
+
+.social-icons a:hover .fa-facebook-f {
+    color: #3b5998;
+}
+
+.social-icons a:hover .fa-soundcloud {
+    color: #ff7700 ;
+}
+.social-icons li:hover {
+    border: 2px solid #96c80d;
+    cursor: pointer;
+}
+
+.social-icons 
 .social-btn {
     /*    margin-right: 4rem; */
     color: white;
@@ -665,7 +694,7 @@ li {
 }
 
 .social-btn i {
-    margin-top: 13px;
+    margin-top: 10px;
 
 }
 
