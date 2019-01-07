@@ -209,9 +209,7 @@ section {
     border: 2px solid #606060;
 }
 
-.dj-profile img {
-    cursor: pointer;
-}
+
 
 .dj-profile i {
     color: #96c80d;
@@ -244,7 +242,7 @@ section {
     background-color: rgba(24, 24, 24, 0.6);
     overflow: hidden;
     width: 0;
-    cursor: pointer;
+
 
 }
 
@@ -315,7 +313,6 @@ fas {
     overflow: hidden;
     border-radius: 15px;
     border: 2px solid #606060;
-    cursor: pointer;
     margin-bottom: 40px;
 }
 
@@ -327,7 +324,7 @@ fas {
     -webkit-transform: scale(1.15, 1.15);
     -o-transform: scale(1.15, 1.15);
     opacity: 1;
-    cursor: pointer;
+ 
 }
 
 /*                             Video and Info  */
@@ -610,7 +607,6 @@ option[disabled] {
     margin-bottom: 100px;
     width: 100%;
     height: auto;
-    cursor: pointer;
 }
 
 .contact-details i {
@@ -645,7 +641,9 @@ li {
 
 } 
 
-
+/*.social-icons .social-icon-twitter-wrap:hover {
+    background-color: #EBEEF4;
+}*/
 .social-icons li {
     height: 50px;
     width: 50px;
@@ -689,7 +687,7 @@ li {
     /*    margin-right: 4rem; */
     color: white;
     font-size: 1.5rem;
-
+    text-decoration: none;
 
 }
 
