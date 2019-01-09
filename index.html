@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" class="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    
+    
 </head>
 
 <body data-spy="scroll" data-target="#navtest" id="Home">
@@ -56,11 +58,11 @@
             <div class="row">
                 <div class="col-12">
                     <div class="callout jumbotron text-center">
-                        <h3>Music for your Mind, Body and Soul</h3>
+                        <h3 class="d-none d-lg-block">Music for your Mind, Body and Soul</h3>
                         <h1><i class="fas fa-compact-disc"></i><strong>Deep</strong>house</h1>
                         <p class="lead">World class DJs for your venue</p>
-                        <hr class="my-4">
-                        <p>Stay with the vibe and subscribe</p>
+                        <hr class="block-devider">
+                        <p class="d-none d-lg-block"><span>Stay with the vibe and subscribe</span></p>
                         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#subscribe-modal">Subscribe</button>
                     </div>
                 </div>
@@ -600,9 +602,13 @@
                 <p>Code Institute | Milestone Project</p>
                 <p><span><small>User Centric Frontend Development</small></span></p>
                 <p><span><small>by Derek Flanagan</small></span></p>
+                <ul class="list-inline">
+                    <li>
                 <a href="https://github.com/ThePixel8or" target="_blank">
                 <i class="fab fa-github hvr-pulse"></i>
                 </a>
+                </li>
+                </ul>
                 </div>
                 <p class="copyright"><small>© 2019 Derek Flanagan | All Rights Reserved</small> </p>
             </div>
@@ -673,7 +679,7 @@ $('body').scrollspy({ target: '#Home' });
 
 
     <!-- spiining icons -->
-    <script>
+   <script>
         $(window).scroll(function() {
 
             // get the variable of how far we've scrolled from the top
@@ -690,7 +696,7 @@ $('body').scrollspy({ target: '#Home' });
             });
 
         });
-    </script>
+    </script> 
     <!-- spinning icons end -->
 
 
