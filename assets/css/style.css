@@ -216,16 +216,17 @@ section {
 
 .arrow-down-animation {
     position: absolute;
-    color: rgba(255,255,2555, 0.7);
+    color: rgba(255,255,255, 0.6);
     text-align: center;
     top: 90%;
     animation-name: jump;
     animation-duration: .5s;
+    -webkit-animation-duration: .5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 
-    font-size: 2em;
+    font-size: 1.4em;
 }
 
 
@@ -695,7 +696,7 @@ li {
 }*/
 .social-icons li {
     height: 50px;
-    width: 50px;
+  /*  width: 50px; */
 
     background-color: #404040;
     border-radius: 25px;
@@ -758,7 +759,7 @@ li {
 }
 
 .scroll {
-    color: #00bae2;
+    color: rgba(255,255,255,0.6);
     position: absolute;
     right: 0.5em;
     bottom: 0.1em;
@@ -780,7 +781,7 @@ li {
     -moz-transition: 0.1s;
     -webkit-transition: 0.1s;
     -o-transition: 0.1s;
-    color: #33daff;
+    color: rgba(255,255,255,0.35);
 }
 
 
@@ -828,7 +829,7 @@ li {
 
 
 .footer-info a:hover {
-    color: #f141be;
+    color: #96c80d;
     text-decoration: none;
 }
 .footer-info {
