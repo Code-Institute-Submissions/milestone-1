@@ -17,6 +17,17 @@ body {
     color: #e6e6e6;
 }
 
+.navbar-dark {
+    border-color: rgba(0,0,0,0,0.0);
+}
+.navbar-toggler {
+    border-radius: 15px;
+}
+
+.navbar-toggler:hover {
+    border-color: rgba(150, 200, 13, 0.5);
+}
+
 .bg-dark {
     background-color: rgba(24, 24, 24, 0.95)!important;
     border-bottom-style: solid;
@@ -79,11 +90,16 @@ button:focus {
 
 .modal-footer .btn-secondary {
     color: #e6e6e6;
-    background-color: #f141be;
-    border-color: #be0e8c;
+    background-color: #00bae2;
+    border: 2px solid #007d99;
     border-radius: 15px;
 }
 
+.modal-footer .btn-secondary:hover {
+    color: #fff;
+    background-color: #00d0ff;
+    box-shadow: 0px 0px 8px 1px  #4ddeff;
+}
 
 /*     ------------------------- About section  */
 
@@ -251,9 +267,9 @@ section {
 
 .dj-profile h3 {
     text-align: center;
-    margin-top: 60px;
+    
 
-}
+}       
 
 .dj-profile .block-devider {
     /*   background-color: green; */
@@ -279,7 +295,7 @@ section {
 }
 .profile-slide-overlay {
     position: absolute;
-    top: 121px;
+    top: 61px;
     left: 15px;
     right: 15px;
     bottom: 0;
@@ -602,7 +618,6 @@ option[disabled] {
 .btn-success {
     color: #d9d9d9;
     background-color: #f141be;
- /*   border-color: #770958;  */
      border: 2px solid #770958;
     border-radius: 15px;
     text-transform: capitalize;
@@ -615,6 +630,24 @@ option[disabled] {
      border: 2px solid #a60c7b;
     color: #fff;
     box-shadow: 0px 0px 8px 1px #f8a0df;
+}
+
+.btn-success:focus {
+    box-shadow: 0 0 0  0.1rem rgba(248,160,223,.4);
+}
+.btn-success:not(:disabled):not(.disabled).active, 
+.btn-success:not(:disabled):not(.disabled):active, 
+.show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #f359c7;
+    border: 2px solid  #d70f9e;
+    box-shadow: 0px 0px 8px 8px #f8a0df;
+}
+
+.btn-success:not(:disabled):not(.disabled).active:focus,
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.show>.btn-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(248, 160,223 ,0.5);
 }
 
 
@@ -683,7 +716,7 @@ option[disabled] {
 
 /* social icons */
 
-ul,
+/*ul,
 social-icons,
 li {
     display: inline-block;
@@ -691,12 +724,26 @@ li {
     margin-right: 0.7rem;
 
 
-} 
+} */
+
+/* navbar menu */
+
+#navtest .nav  {
+    padding-left: 32.36px;
+}
+
+#navtest .navbar-nav .nav-link {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+}
 
 /*.social-icons .social-icon-twitter-wrap:hover {
     background-color: #EBEEF4;
 }*/
 .social-icons li {
+    display: inline-block;
+    margin-left: 0.7em;
+    margin-right: 0.7em;
     height: 50px;
   /*  width: 50px; */
 
