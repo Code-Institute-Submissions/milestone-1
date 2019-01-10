@@ -600,19 +600,21 @@ option[disabled] {
 
 
 .btn-success {
-    color: #f2f2f2;
-    background-color: #00bae2;
-    border-color: #006880;
+    color: #d9d9d9;
+    background-color: #f141be;
+ /*   border-color: #770958;  */
+     border: 2px solid #770958;
     border-radius: 15px;
     text-transform: capitalize;
 
 }
 
 .btn-success:hover {
-    background-color: #33daff;
-    border-color: #006680;
+    background-color:  #f359c7;
+ /*   border-color: #006680; */
+     border: 2px solid #a60c7b;
     color: #fff;
-    box-shadow: 0px 0px 6px 2px #0092b3;
+    box-shadow: 0px 0px 8px 1px #f8a0df;
 }
 
 
