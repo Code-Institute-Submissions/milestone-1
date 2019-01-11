@@ -493,6 +493,14 @@ fas {
 
 /* tables colours */
 
+#Events .fa-arrows-alt-h {
+    display: block;
+    font-size: 3em;
+    text-align: center;
+    color: #00bae2;
+    margin-top: 1em;
+}
+
 .table-dark {
   /*  color: #f1e4e4; */
     background-color: #303030;
@@ -528,7 +536,7 @@ fas {
 }
 
 #Events table{
-    margin-top: 60px;
+    margin-top: 1.2em;
     white-space: nowrap;
     text-align: center;
 }
@@ -555,8 +563,8 @@ fas {
 #Events td {
  /*   text-align: center; */
 /*    white-space: nowrap;  */
-    padding-left: 1.4em;
-    padding-right: 1.4em; 
+    padding-left: 2.35em;
+    padding-right: 2.35em; 
 }
 
 /*                              CONTACT SECTION */
@@ -949,6 +957,8 @@ li {
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+    
+    
 
 /*    .profile-slide-text i,
     fas {
@@ -1015,7 +1025,9 @@ li {
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-
+#Events table {
+    margin-top: 5em;
+}
 
     .profile-slide-text .fas {
    /*     margin-bottom: 4px; */
@@ -1078,6 +1090,10 @@ li {
 }
 
 @media (min-width: 992px)  {
+    
+    #Events table {
+    margin-top: 5em;
+    }
 
     .profile-slide-text .fas {
   /*      margin-bottom: 4px; */
