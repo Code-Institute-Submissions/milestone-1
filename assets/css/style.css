@@ -5,16 +5,17 @@ body {
     color: white;
 }
 
-.section-devider {
+/*.section-devider {
     color: red;
     background-color: #303030;
     height: 0.2em;
     width: 100%;
-}
+}*/
 
-/*                                       NAVBAR */
+/*                                ------ NAVBAR */
 
-.navbar-brand i,span{
+.navbar-brand i,
+span {
     color: #00bae2;
 }
 
@@ -23,7 +24,7 @@ body {
 }
 
 .navbar-dark {
-   /* border-color: rgba(0,0,0,0,0.0);  do test on this*/
+    /* border-color: rgba(0,0,0,0,0.0);  do test on this*/
 }
 
 .navbar-toggler {
@@ -50,7 +51,7 @@ button:focus {
     outline: 0px auto -webkit-focus-ring-color;
 }
 
-/*                                       CONTAINERS */
+/*                                 CONTAINERS */
 
 .callout-container {
     height: 100vh;
@@ -71,15 +72,15 @@ button:focus {
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%;
+    width:  100%;
 }
 
-/*  MODAL  SECTION */
+/*                         ------ MODAL  SECTION */
 
 .modal-content {
-        background-color: #303030;
-        border: 2px solid #606060;
-        border-radius: 15px;
+    background-color: #303030;
+    border: 2px solid #606060;
+    border-radius: 15px;
 }
 
 .modal-header {
@@ -100,10 +101,10 @@ button:focus {
 .modal-footer .btn-secondary:hover {
     color: #fff;
     background-color: #00d0ff;
-    box-shadow: 0px 0px 8px 1px  #4ddeff;
+    box-shadow: 0px 0px 8px 1px #4ddeff;
 }
 
-/*     ------------------------- About section  */
+/*                       -------- ABOUT SECTION  */
 
 #About h2 {
     color: darkgrey;
@@ -127,7 +128,6 @@ section {
     background-color: #96c80d;
     border-radius: 3px;
 }
-
 
 .head-title {
     text-align: center;
@@ -182,21 +182,18 @@ section {
 
 /* callout    */
 
-
-
-/*                                    JUMBOTRON      */
+/*                        ------    JUMBOTRON      */
 
 .jumbotron span {
     color: white;
 }
 
-.jumbotron .lead {
-}
+.jumbotron .lead {}
 
 .jumbotron .block-devider {
     margin-bottom: 1em;
-    margin-top: 1em; 
-} 
+    margin-top: 1em;
+}
 
 .jumbotron h1 {
     color: #00bae2;
@@ -205,6 +202,7 @@ section {
 .jumbotron h1 strong {
     color: #e6e6e6;
 }
+
 .jumbotron {
     background-color: transparent;
     color: lightgray;
@@ -215,7 +213,7 @@ section {
 
 .arrow-down-animation {
     position: absolute;
-    color: rgba(255,255,255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
     text-align: center;
     top: 90%;
     animation-name: jump;
@@ -227,7 +225,7 @@ section {
     font-size: 1.4em;
 }
 
-/*                              DJ PROFILES SECTION */
+/*                      -------   DJ PROFILES SECTION */
 
 .dj-profile {
     margin-bottom: 30px;
@@ -247,7 +245,7 @@ section {
 
 .dj-profile h3 {
     text-align: center;
-}       
+}
 
 .dj-profile .block-devider {
     margin-top: 5px;
@@ -313,7 +311,7 @@ section {
     color: #00bae2;
 }
 
-/*                             MEDIA SECTION    */
+/*                            ------   MEDIA SECTION    */
 
 /*                             Club scene images */
 
@@ -348,12 +346,12 @@ section {
     background-color: #303030;
     border-radius: 15px;
     padding: 20px;
-    border: 2px solid rgba(255,255,255,0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .embed-responsive {
     border-radius: 15px;
-    border: 2px solid rgba(255,255,255,0.2); 
+    border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .video-info i {
@@ -371,8 +369,6 @@ section {
     text-transform: uppercase;
 }
 
-
-
 .video-info blockquote p {
     color: #e6e6e6;
     font-size: 1em;
@@ -381,13 +377,12 @@ section {
 }
 
 .video-info h6 {
-/*    font-size: 1em; */
+    /*    font-size: 1em; */
     display: block;
     text-align: center;
     color: #00bae2;
     text-transform: capitalize;
 }
-
 
 .video-info hr {
     margin-top: -30px;
@@ -402,12 +397,11 @@ section {
     height: 50px;
     background-color: #303030;
 }
-/*                             New Tracks and Mixes */
 
-
+/*                       ------   NEW TRACKS AND MIXES */
 
 .music-players-container h2 {
-    text-align:center;
+    text-align: center;
     text-transform: uppercase;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -426,9 +420,7 @@ section {
     margin-bottom: 60px;
 }
 
-
-
-/*                                     EVENTS SECTION  */
+/*                          ------  EVENTS SECTION  */
 
 /* tables colours */
 
@@ -440,29 +432,32 @@ section {
     margin-top: 1em;
 }
 
-.table-dark {
+#Events .table-dark {
     background-color: #303030;
 }
 
-.table-dark.table-striped tbody tr:nth-of-type(odd) {
+#Events .table-dark.table-striped tbody tr:nth-of-type(odd) {
     background-color: #404040;
+ /*   color: #e6e6e6; */
 }
 
-.table-dark td, .table-dark th, .table-dark thead th {
-  border-color: #454545; 
+#Events .table-dark td,
+.table-dark th,
+.table-dark thead th {
+    border-color: #454545;
 }
 
-.table thead th {
+#Events .table thead th {
     border-bottom: 2px solid #424242;
 }
 
-.table td, .table th {
+#Events .table td,
+.table th {
     border-top: 2px solid #424242;
     border-bottom: 2px solid #424242;
     border-right: 2px solid #424242;
-    border-left: 2px solid #424242;  
+    border-left: 2px solid #424242;
 }
-
 
 #Events h2 {
     margin-top: 80px;
@@ -470,12 +465,11 @@ section {
     text-transform: uppercase;
 }
 
-#Events table{
+#Events table {
     margin-top: 1.2em;
     white-space: nowrap;
     text-align: center;
 }
-
 
 .fas fa-compact-disc {
     padding-right: 2em;
@@ -496,7 +490,7 @@ section {
 
 #Events td {
     padding-left: 2.35em;
-    padding-right: 2.35em; 
+    padding-right: 2.35em;
 }
 
 /*                              CONTACT SECTION */
@@ -504,7 +498,7 @@ section {
 option[disabled] {
     color: #00bae2;
     background-color: #404040;
-} 
+}
 
 
 .form-wrap h4 {
@@ -515,7 +509,6 @@ option[disabled] {
 .form-text {
     color: white;
 }
-
 
 .form-control::placeholder {
     color: #606060;
@@ -540,11 +533,10 @@ option[disabled] {
 }
 
 .custom-select:focus {
-  border: 2px solid #00bae2;
-  box-shadow: 0px 0px 4px 2px #00bae2;
-  color: white;
+    border: 2px solid #00bae2;
+    box-shadow: 0px 0px 4px 2px #00bae2;
+    color: white;
 }
-
 
 .form-control:focus {
     border: 2px solid #00bae2;
@@ -553,48 +545,51 @@ option[disabled] {
     color: white;
 }
 
-
 .btn-success {
     color: #d9d9d9;
     background-color: #f141be;
-     border: 2px solid #770958;
+    border: 2px solid #770958;
     border-radius: 15px;
     text-transform: capitalize;
 }
 
 .btn-success:hover {
-    background-color:  #f359c7;
-     border: 2px solid #a60c7b;
+    background-color: #f359c7;
+    border: 2px solid #a60c7b;
     color: #fff;
     box-shadow: 0px 0px 8px 1px #f8a0df;
 }
 
 .btn-success:focus {
-    box-shadow: 0 0 0  0.1rem rgba(248,160,223,.4);
+    box-shadow: 0 0 0 0.1rem rgba(248, 160, 223, .4);
 }
 
-.btn-success:not(:disabled):not(.disabled).active, 
-.btn-success:not(:disabled):not(.disabled):active, 
+.btn-success:not(:disabled):not(.disabled).active,
+.btn-success:not(:disabled):not(.disabled):active,
 .show>.btn-success.dropdown-toggle {
     color: #fff;
     background-color: #f359c7;
-    border: 2px solid  #d70f9e;
+    border: 2px solid #d70f9e;
     box-shadow: 0px 0px 8px 8px #f8a0df;
 }
 
 .btn-success:not(:disabled):not(.disabled).active:focus,
 .btn-success:not(:disabled):not(.disabled):active:focus,
 .show>.btn-success.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(248, 160,223 ,0.5);
+    box-shadow: 0 0 0 0.2rem rgba(248, 160, 223, 0.5);
 }
 
 /*    booking container */
+
 .booking-form-entry {
     margin-top: 1em;
 }
-
+.form-wrap p {
+    margin-bottom: 0;
+}
 .form-wrap .form-group small {
     margin-bottom: 6px;
+    text-align: left;
 }
 
 .form-wrap {
@@ -606,11 +601,12 @@ option[disabled] {
 }
 
 /* get in touch */
+
 .contact-details {
     text-align: center;
     background-color: #303030;
     border-radius: 15px;
-    border: 2px solid rgba(255,255,255,0.3);
+    border: 2px solid rgba(255, 255, 255, 0.3);
     padding-top: 20px;
     margin-bottom: 100px;
     width: 100%;
@@ -636,13 +632,13 @@ option[disabled] {
 
 /* social icons */
 
-.footer-info ul{
+.footer-info ul {
     display: inline-block;
 }
 
 /* navbar menu */
 
-#navtest .nav  {
+#navtest .nav {
     padding-left: 32.36px;
 }
 
@@ -658,7 +654,7 @@ option[disabled] {
     height: 50px;
     background-color: #404040;
     border-radius: 25px;
-    margin-bottom: 60px; 
+    margin-bottom: 60px;
     border: 2px solid #808080;
 }
 
@@ -685,26 +681,23 @@ option[disabled] {
 }
 
 .social-icons a:hover .fa-soundcloud {
-    color: #ff7700 ;
+    color: #ff7700;
 }
+
 .social-icons li:hover {
     border: 2px solid #96c80d;
     cursor: pointer;
 }
 
-.social-icons 
-.social-btn {
+.social-icons .social-btn {
     color: white;
     font-size: 1.5rem;
     text-decoration: none;
-
 }
 
 .social-btn i {
     margin-top: 10px;
-
 }
-
 
 /* back to top */
 
@@ -718,7 +711,7 @@ option[disabled] {
 }
 
 .scroll {
-    color: rgba(255,255,255,0.6);
+    color: rgba(255, 255, 255, 0.6);
     position: absolute;
     right: 0.5em;
     bottom: 0.1em;
@@ -740,7 +733,7 @@ option[disabled] {
     -moz-transition: 0.1s;
     -webkit-transition: 0.1s;
     -o-transition: 0.1s;
-    color: rgba(255,255,255,0.35);
+    color: rgba(255, 255, 255, 0.35);
 }
 
 .scroll .fas {
@@ -762,13 +755,14 @@ option[disabled] {
     border-top: 2px solid #606060;
 }
 
-.footer-info p,small {
+.footer-info p,
+small {
     text-align: center;
     margin-bottom: 0;
     color: #e6e6e6;
 }
 
-.footer-info a{
+.footer-info a {
     display: block;
     margin-top: 2px;
     color: white;
@@ -776,17 +770,17 @@ option[disabled] {
     text-decoration: none;
 }
 
-
 .footer-info a:hover {
     color: #96c80d;
     text-decoration: none;
 }
 
 .footer-info {
-    padding-top:6px;
+    padding-top: 6px;
     padding-bottom: 40px;
     text-align: center;
 }
+
 .copyright {
     margin-bottom: 2px;
 }
@@ -803,38 +797,32 @@ option[disabled] {
     }
 }
 
-
-
-/* MEDIA QUEIRES */
+/*                                 MEDIA QUEIRES */
 
 @media (max-width: 575px) {
 
-.jumbotron h1 {
-    margin-top: 1.6em;
-}
+    .jumbotron h1 {
+        margin-top: 1.6em;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    
-/*                                    JUMBOTRON      */
 
-.jumbotron span {
-    color: white;
+    .jumbotron span {
+        color: white;
+    }
+
+    .jumbotron h1 {
+        color: #00bae2;
+        margin-top: 1.6em
+    }
 }
-
-.jumbotron h1 {
-    color: #00bae2;
-    margin-top: 1.6em
-}
-
-}
-
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-#Events table {
-    margin-top: 5em;
-}
+    #Events table {
+        margin-top: 5em;
+    }
 
     .profile-slide-text .fas {
         font-size: 2.6vw;
@@ -846,30 +834,24 @@ option[disabled] {
 
     .profile-slide-text .block-devider {
         width: 3.6vw;
-        height: 0.5vh; 
+        height: 0.5vh;
     }
 
     .profile-slide-text p {
         font-size: 1.5vw;
-    } 
+    }
 
+    .jumbotron h1 {
+        margin-top: 1.6em;
+    }
 
-    /*                                    JUMBOTRON      */
-
-
-.jumbotron h1 {
-   margin-top: 1.6em;
+    .jumbotron .btn-success {}
 }
 
-.jumbotron .btn-success {
-}
+@media (min-width: 992px) {
 
-}
-
-@media (min-width: 992px)  {
-    
     #Events table {
-    margin-top: 5em;
+        margin-top: 5em;
     }
 
     .profile-slide-text .fas {
@@ -887,40 +869,38 @@ option[disabled] {
 
     .profile-slide-text p {
         font-size: 1vw;
-    } 
-    
-    /*                                    JUMBOTRON      */
+    }
 
-.jumbotron h3 {
-   font-size: 2.2em; 
-    margin-bottom: 0.6em;
-}
+    .jumbotron h3 {
+        font-size: 2.2em;
+        margin-bottom: 0.6em;
+    }
 
-.jumbotron span {
-    font-size: 1.4em; 
-    color: white;
-}
+    .jumbotron span {
+        font-size: 1.4em;
+        color: white;
+    }
 
-.jumbotron .lead {
-    font-size: 1.6em; 
-}
+    .jumbotron .lead {
+        font-size: 1.6em;
+    }
 
-.jumbotron .block-devider {
-    height: 0.3em;
-    width: 3.6em;
-    background-color: #96c80d;
-    border-radius: 5px; 
-    margin-bottom: 2em;
-    margin-top: 2em;
-}
+    .jumbotron .block-devider {
+        height: 0.3em;
+        width: 3.6em;
+        background-color: #96c80d;
+        border-radius: 5px;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
 
-.jumbotron h1 {
-    color: #00bae2;
-   font-size: 4em; 
-}
+    .jumbotron h1 {
+        color: #00bae2;
+        font-size: 4em;
+    }
 
-.jumbotron .btn-success {
-    font-size: 1.1em;
-}
+    .jumbotron .btn-success {
+        font-size: 1.1em;
+    }
 
 }
