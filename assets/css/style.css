@@ -411,6 +411,14 @@ section {
 
 /*                       ------   NEW TRACKS AND MIXES */
 
+/*  player embeds */
+
+.player-wrap iframe {
+    width: 100%;
+    border: 0;
+  /*  scrolling: no; */
+}
+
 .music-players-container h2 {
     text-align: center;
     text-transform: capitalize;
