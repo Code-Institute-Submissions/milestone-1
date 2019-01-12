@@ -15,9 +15,10 @@ body {
 /*                                ------ NAVBAR */
 
 .navbar-brand span,
-.navbar-brand i{
+.navbar-brand i {
     color: #00bae2;
 }
+
 /*.navbar-brand i {
     color: #00bae2;
 }*/
@@ -75,10 +76,21 @@ button:focus {
     top: 0;
     left: 0;
     height: 100%;
-    width:  100%;
+    width: 100%;
 }
 
 /*                         ------ MODAL  SECTION */
+
+.modal-content .close {
+    color: #00bae2;
+    text-shadow: 0 1px 0 #ccf6ff;
+}
+
+.modal-content .close:not(:disabled):not(.disabled):hover {
+    color:  #00d0ff;
+    text-decoration: none;
+    opacity: .75;
+}
 
 .modal-content {
     background-color: #303030;
@@ -136,7 +148,7 @@ section {
     text-align: center;
     padding-top: 80px;
     margin-bottom: 50px;
-  /*  color: darkgrey; */
+    /*  color: darkgrey; */
 }
 
 .head-title h2 {
@@ -416,7 +428,7 @@ section {
 .player-wrap iframe {
     width: 100%;
     border: 0;
-  /*  scrolling: no; */
+    /*  scrolling: no; */
 }
 
 .music-players-container h2 {
@@ -458,7 +470,7 @@ section {
 
 #Events .table-dark.table-striped tbody tr:nth-of-type(odd) {
     background-color: #262626;
- /*   color: #e6e6e6; */
+    /*   color: #e6e6e6; */
 }
 
 #Events .table-dark td,
@@ -480,7 +492,7 @@ section {
 }
 
 #Events h2 {
-  /* margin-top: 80px; */
+    /* margin-top: 80px; */
     text-align: center;
     text-transform: uppercase;
 }
@@ -489,7 +501,7 @@ section {
     margin-top: 1.2em;
     white-space: nowrap;
     text-align: center;
- /*   color: blue; */
+    /*   color: blue; */
 }
 
 .fas fa-compact-disc {
@@ -522,6 +534,7 @@ section {
 .text-darker {
     color: #bfbfbf;
 }
+
 /*                              CONTACT SECTION */
 
 option[disabled] {
@@ -613,9 +626,11 @@ option[disabled] {
 .booking-form-entry {
     margin-top: 1em;
 }
+
 .form-wrap p {
     margin-bottom: 0;
 }
+
 .form-wrap .form-group small {
     margin-bottom: 6px;
     text-align: left;
@@ -788,12 +803,12 @@ option[disabled] {
 .footer-info p {
     text-align: center;
     margin-bottom: 0;
-  /*  color: #e6e6e6; */
+    /*  color: #e6e6e6; */
 }
 
-.fotter-info span {
-    color:;    
-}
+/*.footer-info span {
+    color: red;    
+}*/
 
 .footer-info a {
     display: block;
@@ -842,7 +857,7 @@ option[disabled] {
 @media (min-width: 576px) and (max-width: 767px) {
 
     .jumbotron span {
-   /*     color: white; */
+        /*     color: white; */
     }
 
     .jumbotron h1 {
@@ -911,7 +926,7 @@ option[disabled] {
 
     .jumbotron span {
         font-size: 1.25em;
-     /*   color: white; */
+        /*   color: white; */
     }
 
     .jumbotron .lead {
