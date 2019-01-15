@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900|Ubuntu:100,200,300,400,500,600,700,800,900');
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #202020;
@@ -19,6 +21,9 @@ body {
     color: #00bae2;
 }
 
+.navbar-brand span {
+    font-family: 'Ubuntu', sans-serif;
+}
 /*.navbar-brand i {
     color: #00bae2;
 }*/
@@ -216,10 +221,12 @@ section {
 
 .jumbotron h1 {
     color: #00bae2;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .jumbotron h1 strong {
     color: #e6e6e6;
+    
 }
 
 .jumbotron {
@@ -231,16 +238,21 @@ section {
 /*                                  BOUNCE DOWN ARROW    */
 
 .arrow-down-animation {
+   /* display: block; /*new added */
     position: absolute;
     color: rgba(255, 255, 255, 0.6);
     text-align: center;
     top: 90%;
     animation-name: jump;
+    -webkit-animation-name: jump;
     animation-duration: .5s;
     -webkit-animation-duration: .5s;
     animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
     animation-direction: alternate;
+    -webkit-animation-direction: alternate;
     font-size: 1.4em;
 }
 
@@ -684,7 +696,7 @@ option[disabled] {
 /* navbar menu */
 
 #navtest .nav {
-    padding-left: 32.36px;
+    padding-left: 37.47px;
 }
 
 #navtest .navbar-nav .nav-link {
