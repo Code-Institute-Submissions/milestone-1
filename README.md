@@ -15,7 +15,7 @@ The website is a mobile first design, and is meant for busy DJs and club owners 
 
 the statagey faze I created a list of what was needed and what was not 
 
-##### _User Stories_
+#### _User Stories_
 * As a deep house music fan I can click on a subscribe button and enter my email to recieve the monthly newsletter
 * As a venue owner I can click on a book now `button` to take me to a booking form
 * As a venue owner I can click on Contact on the navagation menu to take me to a booking form
@@ -109,7 +109,6 @@ the statagey faze I created a list of what was needed and what was not
 
 
 # Technologies Used
-fevacon
 
 #### Photoshop - _Image editing_
 
@@ -225,37 +224,157 @@ I also used custom CSS3 to override bootstraps default stylings.
 
 #### Chrome Dev Tools 
 
-   - Chrome dev tools was used as the main testing enviorment
+   - Chrome brouser and dev tools was used as the main testing enviorment. The list of devices below where all tested comprehensively on portrait and landscape display and also the responsiveness with window sizing.
    
 Phone | Tablet | Desktop/Laptop |
    ---| --- | ---|
    _BlackBerry Z30_ | _BlackBerry Playbook_| _Laptop with HiDPI Screen_ |
    _Galaxy Note 3_| _Kindle Fire HDX_| _Laptop with MDPI Screen_|
    _Galaxy Note II_|_Nexus 10_|_Laptop with Touch_|
-   _Galaxy S III_|_Nexus 7_|
-   _LG Optimus L70_|_iPad Mini_|
-   _Microsoft Lumia 550_|_iPad_|
-   _Microsoft Lumia 950_|_iPad Pro_|
-   _Nexus 4_|  |
-   _Nexus 5_|**Desktop/Laptop**
-   _Nexus 5X_|
-   _Nexus 6_|
-   _Nexus 6P_|
-   _Nokia Lumia 520_|
-   _Nokia N9_|
-   _iPhone 4_|
-   _Pixel 2_|
-   _Pixel 2 XL_|
-   _iPhone 5/SE_|
-   _iPhone 6/7/8_|
-   _iPhone 6/7/8 Plus_|
-   _iPhone X_|
+   _Galaxy S III_|_Nexus 7_| |
+   _LG Optimus L70_|_iPad Mini_||
+   _Microsoft Lumia 550_|_iPad_||
+   _Microsoft Lumia 950_|_iPad Pro_||
+   _Nexus 4_|  | |
+   _Nexus 5_|**Desktop/Laptop**||
+   _Nexus 5X_|||
+   _Nexus 6_|||
+   _Nexus 6P_|||
+   _Nokia Lumia 520_|||
+   _Nokia N9_|||
+   _iPhone 4_|||
+   _Pixel 2_|||
+   _Pixel 2 XL_|||
+   _iPhone 5/SE_|||
+   _iPhone 6/7/8_|||
+   _iPhone 6/7/8 Plus_|||
+   _iPhone X_|||
+
+#### Other Brousers
+
+* **Firefox**   
+  - The Firefox brouser and its dev tools was tested 
+
+* **Opera**
+   - d
+* **Edge**
+* **Internet Explorer**
+* **Safari**
+
+___
+
+#### Areas Tested
+
+1. **Subscribe Button:**
+
+   **a.** _On the landing page I clicked on the "Subscribe" Button, and can verify that the pop up modal functions._  
+**b.**  _I treid to submit empty email form and can verify that a required now message apears._   
+**c.** _I tried to submit an invalid email an can verify that the relevent error message apears._  
+**d.** _Entered correct email format and can confirm that it works as intended._  
+**e.** _Clicked on the close button and X to close and can confirm that both function as intended._
+
+___
+  
+2. **Navagation:**  
+
+   **a.** _I clicked on each menu link on the navbar and I can confirm that all links work as intended._   
+**b.** _I clicked on the "book now" button on the navbar and can verify that I was directed to the Contact booking form on the page as intended._   
+**c.** _I clicked on the navbar Deephouse logo and can verify that I was directed to the landing page as intended._   
+**d.** _I moved the mouse over the navagation links and the green underline hover works as intended_   
+**e.** _When viewing smaller devices and on window resizing I can confirm that burger menu comes into view for smaller devices as intended._   
+**f.** _I clicked the burger menu and it displays the menu links on dropdown list as intended._   
+**g.** _I clicked on menu links from the burger dropdown and selected each link I can virify that this works as intended._   
+**h.** _After selecting a link from the dropdown burger menu I can confirm that it closes the dropdown after selection as intended._
+
+___
+
+**3. About Us - _DJ Profile Images_**   
+
+   **a.** _I moved my mouse over each DJ Profile image and I get a sliding overlay effect with DJ Information as intended_   
+   **b.** _  _    
+
+___
+  
+3. **Media**   
+
+   **a.** _I moved my mouse over each of the club scene image and it creates a zoom effect and can confirm that it works as intended._  
+   **b.** _I clicked play on YouTube video embeds and it plays the video as intended_  
+   **c.** _I clicked on each one of the 5 embedded new tracks and they all play and work as intended._   
+   **d.** _I clicked on each one of the 5 embeded new mixes and they all work as intended_   
+
+___
+   
+4. **Event Listing**   
+
+   **a.** _On smaller devices I can scroll horizontally on the events listings as intended_   
+   **b.** __
+
+___
+
+5. **Boooking Form**   
+
+   **a.** _I tried to enter empty first name and can verify the required message apears__  
+   **b.** _I entered my first name and can verify that it works as intended_  
+   **c.** _I tried to enter empty second name and can verify that the required message apears__   
+   **d.** _I entered my second name and can verify that it works as intended_  
+   **e.**  _I treid to submit empty email form and can verify that a required now message apears._   
+   **f.** _I tried to submit an invalid email an can verify that the relevent error message apears._   
+   **g.** _I entered the correct email format and can confirm that it works._   
+   **h.** _I treid to enter empty phone and can verify that the required mesage apears__   
+   **i.** _I tried to enter text and and it does not input as intended_   
+   **j.** _I entered numbers and it works as intended_   
+   **k.** _I tried to select a county from the dropdown list and it works as intended and is optional_   
+   **l.** _I tried to select a DJ from the drodown list and it works as intended and is optional_   
+   **m.** _I entered text to the message field and it works as intended and it is optional_   
+   **n.** _I clicked on the send now button, and although it is not set up any backend servers, it works as intended to_   
+
+___
+
+6. **Get In touch Info**   
+
+   **a.** _When I move my mouse over the get in touch address info I can confirm that it pops up and hovers._  
+   **b.** _When I move my mouse over the get in touch phone info I can confirm that it pops up and hovers._  
+   **c.** _When I move my mouse over the get in touch email info I can confirm that it pops up and hovers._
+
+___
+
+7. **Social LInks**   
+
+   **a.** _I clicked on all the social media icon links and I can verify that all links work as intended and open in a new window._
+
+___
+
+8. **Scroll to Top**   
+
+   **a.** _I clicked the scroll to top icon and I can verify that it works as intended_
+
+#### W3C Validation
+
+* _**Markup Validation Service**_
+
+  This online service was used to check the validation of the HTML code.
+  * _**Errors encountered and fixed**_
+   
+    * **Images:** I removed stray end tags on images that where displaying errors in validation results. The removed end tags fixed the issue.
+    
+    * **Music Player Embeds:** The music player embeds where displaying errors in the valadition results. The 100% width was giving a error bad value so I removed it and added it to the CSS instead.  
+      Removed Frameborder from the music player embeds as it is an obsolete element and I used Border in the CSS instead.   
+    I removed Scrolling element from music player embeds.
+
+      Putting the HTML through the validitation again displays no Errors or Warnings. 
+    
+      https://validator.w3.org/#validate_by_input
+      
+      
+* _**CSS Validation Service**_    
+
+     This online service was used to check the validation of the CSS code.   
+  
+  * No Errors Encountered    
+   
+    http://jigsaw.w3.org/css-validator/#validate_by_input
 
 
-
-https://validator.w3.org/#validate_by_input
-
-http://jigsaw.w3.org/css-validator/#validate_by_input
 
 https://aws.amazon.com/cloud9/
 
@@ -263,11 +382,81 @@ https://getbootstrap.com/docs/4.1/getting-started/introduction/
 
 # Deployment
 
-git and github
+I used GitHub Pages free hosting to publish the website for this project.  
+Milestone 1 project [Click to visit Deephouse]( https://thepixel8or.github.io/milestone-1/)
 
 # Credits
 
-Milestone 1 project [DeepHouse]( https://thepixel8or.github.io/milestone-1/)
+#### Content
+
+* In the About section "What is Deep House?" the text was sourced from Wikipedia.   
+ https://en.wikipedia.org/wiki/Deep_house
+
+* In the video DJ information section for Kerri Chandler, The text snippets where sourced from Resident Adviser.    
+https://www.residentadvisor.net/dj/kerrichandler/biography
+
+* In the video DJ information section for Glenn Underground, The text was sourced from Discogs.   https://www.discogs.com/artist/696-Glenn-Underground
+
+#### Media
+
+* _**Images:**_ 
+
+  *  The landing page club image was sourced from Maurício Mascaro at Pexels and comes with a free to use for personal and commercial licence with no attribution required.        https://www.pexels.com/photo/grayscale-photo-of-group-of-people-inside-stadium-788824/
+  
+  * In the Meet the Crew section, the female DJ image was sourced from Pixabay and comes with a free to use for personal and commercial licence with no attribution required.        https://pixabay.com/en/dj-live-music-music-live-1794970/
+  
+  * In the Meet the Crew section, the two male DJ images was sourced at Unsplash and comes with a free to use for personal and commercial licence with no attribution required.
+  https://unsplash.com/photos/2LGx4cQAMks    
+  https://unsplash.com/photos/WJ4kTDv8lyg
+
+  * In the Media section club scene images, three of the images where sourced from Unsplash and one image from Pixabay. All the images come with a free to use for personal and commercial licence with no attribtion required.    
+  https://pixabay.com/en/nightclub-crowd-disco-entertainment-3492748/    
+  https://unsplash.com/photos/nLUb9GThIcg    
+  https://unsplash.com/photos/CD6rkYFX2PA    
+  https://unsplash.com/photos/KpZuW7VmPoA
+
+* _**Video:**_
+
+  * I used Youtube embeds for for the DJ videos.   
+  https://www.youtube.com/watch?time_continue=150&v=KMV2-hYZiCI    
+  https://www.youtube.com/watch?time_continue=170&v=efqoC_j16UI
+
+* _**Music players:**_    
+
+  * For the New Tracks section I used Beatport for the embeded players.    
+    https://www.beatport.com/
+
+  * For the New Mixes section I used Mixcloud for the embedded players.    
+    https://www.mixcloud.com/
+
+#### Code
+
+* _**Smooth scrolling:**_
+  
+  * To achieve the smooth scrolling effect I used w3schools cross browser solution with javascript/jQuery.    
+  https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+
+* _**Scroll to Top:**_
+  
+  * For the Scroll to top I used a snippet of Javascript code from Codepen.    
+    https://codepen.io/kruxor/pen/CwpFq
+
+* _**Rotating CD Icon:**_
+
+  * To Create a rotating record/CD effect on mouse scroll I used some Javascript snippet of code from Codepen.    
+   https://codepen.io/chrisoncode/pen/mlJbD 
+
+* _**Image Overlay Slide**_
+
+  * To create the image slide overlay when you mouse over the DJ profile images, I used I used some code from w3schools and put my own take on it.    
+  https://www.w3schools.com/howto/howto_css_image_overlay_slide.asp
+
+* _**Navbar collapse on selection:**_
+
+  * To have the navbar links collapse on selection I used and a little snippit of code with some help and information from Stackoverflow.    
+  https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click
+
+
 
 
 
@@ -278,3 +467,4 @@ Milestone 1 project [DeepHouse]( https://thepixel8or.github.io/milestone-1/)
 ![Derek](https://github.com/thepixel8or/milestone-1/raw/master/assets/images/MissCSSstylin.jpg "MissCSS stylin")
 
 
+https://developers.google.com/web/tools/chrome-devtools/
