@@ -9,7 +9,7 @@
 
 >* __Milestone 1 project [Click here visit Deephouse]( https://thepixel8or.github.io/milestone-1/)__
 
----
+
 # UX
 
 This website is for DJs, venue owners and fans of Deep house music to book and hire DJs for their venue, listen to new DJ mixes and Track releases. Users of the website can also look at the latest upcoming events to find out where their favourite DJs are playing.   
@@ -18,14 +18,16 @@ The website is a mobile first design, and so I decided to go with the one page l
 
 The main objective of this website is to get as many subscribers and followers of Deephouse, in creating awareness and growth for the brand, and in doing so getting more clients, with the goal at becoming one of the top go to DJ hire and fan resource page for the Deephouse dance music genre.   
 
-At the beginning during the strategy faze I spent a lot of time researching other DJ hire and electronic dance music websites for inspiration, and to try to build up an idea in my head of what I wanted my website to look like. I also looked at what I needed to do make my site unique and stand out from the rest.   
-From what I gathered on my research is that many of these sites only focused on one particular feature, such as DJ hire sites was booking a DJ only, Music sites was only listening to the tracks, Music videos on YouTube, and the event listings are all on separate websites. So from that, what I decided to do was to combine all these features into the one website.   
+At the beginning during the strategy faze I spent a lot of time researching other DJ hire and electronic dance music websites for inspiration, and to try to build up an idea in my head of what I wanted my website to look like. I also looked at what I needed to do, to make my site unique and stand out from the rest.   
+From what I gathered on my research is that many of these sites only focused on one particular feature, such as DJ hire sites with booking a DJ only, Music sites was only listening to the tracks, Music videos on YouTube, and the event listings are all on separate websites. So from that, what I decided to do was to combine all these features into the one website.   
 
 I then created a list on a piece of paper of what was worth doing and the importance and viability of all the features listed, and by doing so I managed to cut out a lot unnecessary features that would have otherwise cluttered up the website.
 
 At this stage I knew exactly what I wanted to do and I was visualizing the website and how it was going to look in my head. I then used the free trail of Balsamiq to layout the wireframes for this project.
 
 Click the link to view [Wireframes](https://github.com/thepixel8or/milestone-1/blob/master/assets/Wireframes/Milestone1-wireframes.pdf)   
+
+Click the link to view external [Wireframes](https://s3-us-west-2.amazonaws.com/giwebstuff/Milestone1_wireframes.pdf) 
 
 From the start I knew I wanted a dark colour theme, as I wanted to signify the mood of a dark nightclub. From my research I came across several colour theory and phycology websites and how colours can affect user’s moods, and from what I learnt is that blackish colours represents power, luxury, sophistication and elegance that evoke professionalism. The greyish colours represents neutral, simplicity, calm, futuristic and logic and is associated with technology and sophistication. This is exactly the mood I wanted to reflect from the website.   
 
@@ -545,10 +547,7 @@ https://www.residentadvisor.net/dj/kerrichandler/biography
   
   
 
-[Wireframes](https://github.com/thepixel8or/milestone-1/blob/master/assets/Wireframes/Milestone1-wireframes.pdf)
 
-
-![Colour scheme](https://github.com/thepixel8or/milestone-1/raw/master/assets/images/Colour-Scheme.jpg "Colour Scheme")
 
 
 https://developers.google.com/web/tools/chrome-devtools/
