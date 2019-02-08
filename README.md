@@ -3,17 +3,39 @@
 ### Milestone One Project | Code Institue
 
 
->__This is a website for Club owners, DJs and fans of Deep House music to book DJs for events, listen to the latest Mixes and track releases and find out where there favourate DJs are playing with upcoming events.__
+>__This website is designed for the busy DJs, fans and club owners who are always on the go. With a simple and elegant design along with its professional look and feel providing a sense of trust to its users. The sites easy to use navigation makes for a satisfying experience for its users, allowing you to navigate to any section of the page quickly and efficiently.__    
 
+>__There are four features essential to DJs and Fans needs all combined into one website, such as booking a DJ, listening to the latest new mixes and track releases, watching videos of DJ gigs, and checking the event listings for the latest upcoming events for when your favourite DJs are playing in your town.__
+
+>* __Milestone 1 project [Click here visit Deephouse]( https://thepixel8or.github.io/milestone-1/)__
 
 ---
 # UX
 
-This website is for DJs, venue owners and fans of Deep house music to book and hire DJs for their venue, listen to new DJ mixes and Track releases. Users of the website can also look at the latest upcoming events to find out where their favourite DJs are playing.
+This website is for DJs, venue owners and fans of Deep house music to book and hire DJs for their venue, listen to new DJ mixes and Track releases. Users of the website can also look at the latest upcoming events to find out where their favourite DJs are playing.   
 
-The website is a mobile first design, and is meant for busy DJs and club owners who are always on the go. The design is simple design and easy to navigate the one page layout. The idea was to have a dark colour to have that modern and elegant feel. The dark colour Scheme with shades of dark grey. with red, green and blue for icons.
+The website is a mobile first design, and so I decided to go with the one page layout rather than multiple pages. The reason being is that I believe the one page layout would be more efficient and easier to navigate on mobile devices.
 
-the statagey faze I created a list of what was needed and what was not 
+The main objective of this website is to get as many subscribers and followers of Deephouse, in creating awareness and growth for the brand, and in doing so getting more clients, with the goal at becoming one of the top go to DJ hire and fan resource page for the Deephouse dance music genre.   
+
+At the beginning during the strategy faze I spent a lot of time researching other DJ hire and electronic dance music websites for inspiration, and to try to build up an idea in my head of what I wanted my website to look like. I also looked at what I needed to do make my site unique and stand out from the rest.   
+From what I gathered on my research is that many of these sites only focused on one particular feature, such as DJ hire sites was booking a DJ only, Music sites was only listening to the tracks, Music videos on YouTube, and the event listings are all on separate websites. So from that, what I decided to do was to combine all these features into the one website.   
+
+I then created a list on a piece of paper of what was worth doing and the importance and viability of all the features listed, and by doing so I managed to cut out a lot unnecessary features that would have otherwise cluttered up the website.
+
+At this stage I knew exactly what I wanted to do and I was visualizing the website and how it was going to look in my head. I then used the free trail of Balsamiq to layout the wireframes for this project.
+
+Click the link to view [Wireframes](https://github.com/thepixel8or/milestone-1/blob/master/assets/Wireframes/Milestone1-wireframes.pdf)   
+
+From the start I knew I wanted a dark colour theme, as I wanted to signify the mood of a dark nightclub. From my research I came across several colour theory and phycology websites and how colours can affect user’s moods, and from what I learnt is that blackish colours represents power, luxury, sophistication and elegance that evoke professionalism. The greyish colours represents neutral, simplicity, calm, futuristic and logic and is associated with technology and sophistication. This is exactly the mood I wanted to reflect from the website.   
+
+![Colour scheme](https://github.com/thepixel8or/milestone-1/raw/master/assets/images/Colour-Scheme.jpg "Colour Scheme")
+
+Along with the shades of black and grey, I had decided to use red, blue and green colours to represent the lights that you would see in a nightclub for use on icons and logos, this worked well, but later changed the shades of the red, blue and green colours to match that of the Music player embeds that I sourced from Beatport. The reason being is that I could not change the CSS for the player embeds and so I decided to match the colours to keep the site all the same colour theme.
+
+
+
+
 
 #### _User Stories_
 * As a deep house music fan I can click on a subscribe button and enter my email to recieve the monthly newsletter
@@ -253,13 +275,56 @@ Phone | Tablet | Desktop/Laptop |
 #### Other Brousers
 
 * **Firefox**   
-  - The Firefox brouser and its dev tools was tested 
+  - The Firefox brouser and all its device emulators where tested along with window responsiveness and landscape and portrait displays.    
+  No issues encountered and all work as intended.
 
 * **Opera**
-   - d
-* **Edge**
-* **Internet Explorer**
+   - The Opera brouser and all its device emulators where tested along with window responsiveness and landscape and portraint displays.    
+   No issues encountered and all work as intended.
+
 * **Safari**
+ 
+  * As I had no access to any Apple devices for testing, I downloaded Safari for windows on an windows 7 operating system.
+  
+  _**Issues Encountered**_ 
+
+    * The latest verison of Safari I could get for windows was Safari 5.1.7. and on further research into this I found out that Apple has abandoned and discontinued development for Safari for windows many years ago, with the lastest update for this in 2012.   
+  
+      I treid to use this older version anyway but when I try view Github or the project I get a message that Safari cant establish connection to server github.com.    
+      
+      For this reason I could not conduct any testing for the Safari brouser. If in the future I can get access to an Appple device I will do testing for this.
+
+* **Edge**
+  
+   * The Edge brouser and all its device emulators where tested along with window responsiveness and landscape and portrait displays.    
+
+  _**Issue Encountered**_
+  
+  When testing on the Edge brouser I encounterd an issue with the image on the landing page. When the user scrolls the page the background image judders (_some sort of shaking_).   
+  I have spent a lot of time on this project trying to resolve this one issue and have searched the internet tirelessly for a solution with no luck.    
+  
+  In my efforts to try pinpoint this problem I started to comment out all the javascript scripts and testing the site each time I removed a section of code. I continued to remove sections of code back to the bare minimum and also using Chrome dev tools untill I found what was causing the Issue.   
+  From what I found is that the dot overlay image with transparancy that is overlayed on top of the background image on the landing page is causing this judder, and by removing this the site works fine. 
+  
+  Although I found what was causing the problem, and because it renders and displays perfect on all the other brousers I still had the issue of trying to find a fix for it on Edge.   
+  If I was to leave out the dot overlay image just for the sake of Edge brouser the elegant look and feel of the site would be lost with the background image looking to bright and plain and the text looking washed out and hard to read.    
+  So I continue to try find a solution for this problem    
+  
+  On my seach to try find a fix for the issue I came across numerious sites and forums with many offering some sort of solution and lots of comments saying that it was a common Microsoft bug with several posts offering Javascript hacks and solutions. All of the possible fixes I came across I treid and they did not resolve the issue.
+  
+  I also tried the Code Institute slack comunity for some feedback and possible fixes, but all solutions put forward I tried and did not fix the issue.    
+  
+  My conclusion on this issue is that I decided to leave the Dot Overlay image in the site as it works perfectly fine on the other brousers, with the pupose as i move forward onto the next module JavaScript Fundamentals that I can learn and better understand a way to fix this problem.
+  
+  
+* **Internet Explorer**
+
+  * Github and Github pages where I have this project deployed does not support Internet Explorer anymore with the message to use Edge, Chrome or firefox instead.   
+  Regardless of this I had a look at the site anyway and there is an issue with the arrow down indicator pushing to the right and off the screen.   
+  With futher research on the internet I discovered that Internet Explorer is outdated and obsolete brouser even with the latest IE11 still being updated by Microsoft but not supporting many of the modern technologies for a modern brouser expierance and to use Edge instead.
+
+    For these reasons above I cannot conduct propper testing with Internet Explorer on this site as the results would be inconclusive.
+
 
 ___
 
@@ -401,6 +466,9 @@ https://www.residentadvisor.net/dj/kerrichandler/biography
 
 * _**Images:**_ 
 
+  * **Copyright:** I believe its good practice for me as a beginner developer to learn about copyright and creative commons licences, and to be aware that using any images or content that is found on the internet can result in copyright infringement, and in doing so could potentially damage you or your employers business and reputation.    
+  So for this project all the images used where sourced from royalty free stock photo websites that provided free for personal and commercail licence with no attribution required.   
+  
   *  The landing page club image was sourced from Maurício Mascaro at Pexels and comes with a free to use for personal and commercial licence with no attribution required.        https://www.pexels.com/photo/grayscale-photo-of-group-of-people-inside-stadium-788824/
   
   * In the Meet the Crew section, the female DJ image was sourced from Pixabay and comes with a free to use for personal and commercial licence with no attribution required.        https://pixabay.com/en/dj-live-music-music-live-1794970/
@@ -448,8 +516,13 @@ https://www.residentadvisor.net/dj/kerrichandler/biography
 
 * _**Image Overlay Slide**_
 
-  * To create the image slide overlay when you mouse over the DJ profile images, I used I used some code from w3schools and put my own take on it.    
+  * To create the image slide overlay when you mouse over the DJ profile images, I used some code from w3schools and put my own take on it.    
   https://www.w3schools.com/howto/howto_css_image_overlay_slide.asp
+
+* _**Image Zoom**_
+
+  * For the image zoom effect on the club scene images I got some ideas from a snippit of code from Codepen.   
+  https://codepen.io/sara_bianchi94/pen/LLOVYy/
 
 * _**Navbar collapse on selection:**_
 
@@ -458,13 +531,24 @@ https://www.residentadvisor.net/dj/kerrichandler/biography
 
 
 
+### Acknowledgements
 
+* Id like to thank my Code Institute mentor Chriss Zelanski for his help and guidance on this project.
 
+* Id like to thank the Code Institute studant care tutors for quick respone to any questions I had and also for the encouringing emails that help to motivate me.
+
+* Id like to thank the Code Institute slack comunnity for the help and support with any questions I had and also the information and feedback I recieved.
+
+  _**Inspirtation**_
+  
+  Some of the website i visited for Insipration
+  
+  
 
 [Wireframes](https://github.com/thepixel8or/milestone-1/blob/master/assets/Wireframes/Milestone1-wireframes.pdf)
 
 
-![Derek](https://github.com/thepixel8or/milestone-1/raw/master/assets/images/MissCSSstylin.jpg "MissCSS stylin")
+![Colour scheme](https://github.com/thepixel8or/milestone-1/raw/master/assets/images/Colour-Scheme.jpg "Colour Scheme")
 
 
 https://developers.google.com/web/tools/chrome-devtools/
