@@ -5,14 +5,14 @@
 
 >__This website is designed for the busy DJs, fans and club owners who are always on the go. With a simple and elegant design along with its professional look and feel providing a sense of trust to its users. The sites easy to use navigation makes for a satisfying experience for its users, allowing you to navigate to any section of the page quickly and efficiently.__    
 
->__There are four features essential to DJs and Fans needs all combined into one website, such as booking a DJ, listening to the latest new mixes and track releases, watching videos of DJ gigs, and checking the event listings for the latest upcoming events for when your favourite DJs are playing in your town.__
+>__There are four features essential to DJs and Fans needs all combined into one website, such as booking a DJ, listening to the latest new mixes and track releases, watching videos of DJ gigs, and checking the event listings for the latest upcoming events for when your favourite DJs are playing in town.__
 
 >* __Milestone 1 project [Click here visit Deephouse]( https://thepixel8or.github.io/milestone-1/)__
 
 
 # UX
 
-This website is for DJs, venue owners and fans of Deep house music to book and hire DJs for their venue, listen to new DJ mixes and Track releases. Users of the website can also look at the latest upcoming events to find out where their favourite DJs are playing.   
+This website is for DJs, venue owners and fans of Deep house music to book and hire DJs for their venue, as well as listen to new DJ mixes and Track releases. Users of the website can also look at the latest upcoming events to find out where their favourite DJs are playing.   
 
 The website is a mobile first design, and so I decided to go with the one page layout rather than multiple pages. The reason being is that I believe the one page layout would be more efficient and easier to navigate on mobile devices.
 
@@ -35,7 +35,7 @@ From the start I knew I wanted a dark colour theme, as I wanted to signify the m
 
 Along with the shades of black and grey, I had decided to use red, blue and green colours to represent the lights that you would see in a nightclub for use on icons and logos, this worked well, but later changed the shades of the red, blue and green colours to match that of the Music player embeds that I sourced from Beatport. The reason being is that I could not change the CSS for the player embeds and so I decided to match the colours to keep the site all the same colour theme.   
 
-* **Colour Picker:** _I used the colour picker from W3Schools to get colour variations for button colour on hover and border colours on select._   
+* **Colour Picker:** _I used the colour picker from W3Schools to get colour variations for highlighting the buttons colour on hover and selecting._   
  https://www.w3schools.com/colors/colors_picker.asp
 
 
@@ -116,7 +116,7 @@ Along with the shades of black and grey, I had decided to use red, blue and gree
 
 * **Features 13 - _Upcoming Events_**
 
-   - The upcoming events section uses tables to create the listings and on smaller devices such as mobile phones the user is presented with a direction arrows left and right to indicate that you can scroll left and right to see more of the events listing.
+   - The upcoming events section uses tables to create the listings and on smaller devices such as mobile phones the user is presented with a direction arrow left and right to indicate that you can scroll horizontally left and right to see more of the events listing.
 
 * **Features 14 - _Booking Form_**
 
@@ -273,11 +273,13 @@ Phone | Tablet | Desktop/Laptop |
    _Galaxy Note 3_| _Kindle Fire HDX_| _Laptop with MDPI Screen_|
    _Galaxy Note II_|_Nexus 10_|_Laptop with Touch_|
    _Galaxy S III_|_Nexus 7_| |
-   _LG Optimus L70_|_iPad Mini_||
-   _Microsoft Lumia 550_|_iPad_||
-   _Microsoft Lumia 950_|_iPad Pro_||
-   _Nexus 4_|  | |
-   _Nexus 5_|**Desktop/Laptop**||
+   _Galaxy S9_|_iPad Mini_|**Windows 10 Desktop**|
+   _Galaxy S7 (real)_|_iPad_|_27 inch Monitor (real)_|
+   _LG Optimus L70_|_iPad Pro_|_24 inch Monitor (real)_|
+   _Microsoft Lumia 550_|||
+   _Microsoft Lumia 950_||**Windows 7 Desktop**|
+   _Nexus 4_|  | _27 inch Monitor (real)_|
+   _Nexus 5_||_24 inch Monitor (real)_|
    _Nexus 5X_|||
    _Nexus 6_|||
    _Nexus 6P_|||

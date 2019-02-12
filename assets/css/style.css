@@ -7,14 +7,7 @@ body {
     color: #bfbfbf;
 }
 
-/*.section-devider {
-    color: red;
-    background-color: #303030;
-    height: 0.2em;
-    width: 100%;
-}*/
-
-/*                                ------ NAVBAR */
+/*                      ------  NAVBAR */
 
 .navbar-brand span,
 .navbar-brand i {
@@ -24,16 +17,9 @@ body {
 .navbar-brand span {
     font-family: 'Ubuntu', sans-serif;
 }
-/*.navbar-brand i {
-    color: #00bae2;
-}*/
 
 .navbar-brand strong {
     color: #e6e6e6;
-}
-
-.navbar-dark {
-    /* border-color: rgba(0,0,0,0,0.0);  do test on this*/
 }
 
 .navbar-toggler {
@@ -56,11 +42,20 @@ body {
     height: 2px;
 }
 
+#navtest .nav {
+    padding-left: 37.47px;
+}
+
+#navtest .navbar-nav .nav-link {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+}
+
 button:focus {
     outline: 0px auto -webkit-focus-ring-color;
 }
 
-/*                                 CONTAINERS */
+/*                         LANDING PAGE IMAGES CONTAINER */
 
 .callout-container {
     height: 100vh;
@@ -84,7 +79,7 @@ button:focus {
     width: 100%;
 }
 
-/*                         ------ MODAL  SECTION */
+/*                       MODAL  SECTION */
 
 .modal-content .close {
     color: #00bae2;
@@ -124,11 +119,52 @@ button:focus {
     box-shadow: 0px 0px 8px 1px #4ddeff;
 }
 
-/*                       -------- ABOUT SECTION  */
+/*                      ------   JUMBOTRON  */
 
-/*#About h2 {
-    color: darkgrey; 
-}*/
+.jumbotron span {
+    color: #cccccc;
+}
+
+.jumbotron .block-devider {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.jumbotron h1 {
+    color: #00bae2;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.jumbotron h1 strong {
+    color: #e6e6e6;
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: #bfbfbf;
+}
+
+/*                     ------   SCROLL DOWN ARROW INDICATOR    */
+
+.arrow-down-animation {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    top: 90%;
+    animation-name: jump;
+    -webkit-animation-name: jump;
+    animation-duration: .5s;
+    -webkit-animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    font-size: 1.4em;
+}
+
+/*                  ------  ABOUT US SECTION  */
 
 #About p {
     color: #bfbfbf;
@@ -153,7 +189,6 @@ section {
     text-align: center;
     padding-top: 80px;
     margin-bottom: 50px;
-    /*  color: darkgrey; */
 }
 
 .head-title h2 {
@@ -202,61 +237,7 @@ section {
     background-color: aquamarine;
 }
 
-
-/* callout    */
-
-/*                        ------    JUMBOTRON      */
-
-.jumbotron span {
-    color: #cccccc;
-}
-
-/*.jumbotron .lead {
-}*/
-
-.jumbotron .block-devider {
-    margin-bottom: 1em;
-    margin-top: 1em;
-}
-
-.jumbotron h1 {
-    color: #00bae2;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.jumbotron h1 strong {
-    color: #e6e6e6;
-    
-}
-
-.jumbotron {
-    background-color: transparent;
-    color: #bfbfbf;
-}
-
-
-/*                                  BOUNCE DOWN ARROW    */
-
-.arrow-down-animation {
-   /* display: block; /*new added */
-    position: absolute;
-    color: rgba(255, 255, 255, 0.6);
-    text-align: center;
-    top: 90%;
-    animation-name: jump;
-    -webkit-animation-name: jump;
-    animation-duration: .5s;
-    -webkit-animation-duration: .5s;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    -webkit-animation-iteration-count: infinite;
-    animation-direction: alternate;
-    -webkit-animation-direction: alternate;
-    font-size: 1.4em;
-}
-
-/*                      -------   DJ PROFILES SECTION */
+/*                ------ ABOUT US SECTION - Meet the Crew DJ Profiles */
 
 .dj-profile {
     margin-bottom: 30px;
@@ -347,10 +328,7 @@ section {
     color: #00bae2;
 }
 
-
-/*                            ------   MEDIA SECTION    */
-
-/*                             Club scene images */
+/*                   ------   MEDIA SECTION - Club Scene Images  */
 
 .club-scene img {
     width: 100%;
@@ -379,7 +357,7 @@ section {
     opacity: 1;
 }
 
-/*                             Video and Info  */
+/*                   ------ MEDIA SECTION - Video & Info  */
 
 .video-info {
     margin-bottom: 20px;
@@ -418,7 +396,6 @@ section {
 }
 
 .video-info h6 {
-    /*    font-size: 1em; */
     display: block;
     text-align: center;
     color: #00bae2;
@@ -439,14 +416,11 @@ section {
     background-color: #303030;
 }
 
-/*                       ------   NEW TRACKS AND MIXES */
-
-/*  player embeds */
+/*                 ------  MEDIA SECTION - New Tracks & Mixes */
 
 .player-wrap iframe {
     width: 100%;
     border: 0;
-    /*  scrolling: no; */
 }
 
 .music-players-container h2 {
@@ -470,9 +444,7 @@ section {
     margin-bottom: 60px;
 }
 
-/*                          ------  EVENTS SECTION  */
-
-/* tables colours */
+/*                 ------   UPCOMING EVENTS SECTION  */
 
 #Events .fa-arrows-alt-h {
     display: block;
@@ -488,7 +460,6 @@ section {
 
 #Events .table-dark.table-striped tbody tr:nth-of-type(odd) {
     background-color: #262626;
-    /*   color: #e6e6e6; */
 }
 
 #Events .table-dark td,
@@ -510,7 +481,6 @@ section {
 }
 
 #Events h2 {
-    /* margin-top: 80px; */
     text-align: center;
     text-transform: uppercase;
 }
@@ -519,7 +489,6 @@ section {
     margin-top: 1.2em;
     white-space: nowrap;
     text-align: center;
-    /*   color: blue; */
 }
 
 .fas fa-compact-disc {
@@ -553,13 +522,12 @@ section {
     color: #bfbfbf;
 }
 
-/*                              CONTACT SECTION */
+/*                ------  CONTACT US SECTION - Booking Form  */
 
 option[disabled] {
     color: #00bae2;
     background-color: #404040;
 }
-
 
 .form-wrap h4 {
     text-align: center;
@@ -639,8 +607,6 @@ option[disabled] {
     box-shadow: 0 0 0 0.2rem rgba(248, 160, 223, 0.5);
 }
 
-/*    booking container */
-
 .booking-form-entry {
     margin-top: 1em;
 }
@@ -662,7 +628,7 @@ option[disabled] {
     border: solid 2px rgba(255, 255, 255, 0.2);
 }
 
-/* get in touch */
+/*                 ------  GET IN TOUCH  */
 
 .contact-details {
     text-align: center;
@@ -693,21 +659,10 @@ option[disabled] {
     border: 2px solid #96c80d;
 }
 
-/* social icons */
+/*               ------  SOCIAL MEDIA ICONS & LINKS */
 
 .footer-info ul {
     display: inline-block;
-}
-
-/* navbar menu */
-
-#navtest .nav {
-    padding-left: 37.47px;
-}
-
-#navtest .navbar-nav .nav-link {
-    margin-left: 0.7rem;
-    margin-right: 0.7rem;
 }
 
 .social-icons li {
@@ -762,7 +717,7 @@ option[disabled] {
     margin-top: 10px;
 }
 
-/* back to top */
+/*              ------  SCROLL BACK TO TOP */
 
 .scrolltop {
     display: none;
@@ -809,9 +764,7 @@ option[disabled] {
     -o-transition: 0.1s;
 }
 
-/* back to top end */
-
-/*                    FOOTER SECTION */
+/*               ------  FOOTER SECTION */
 
 .footer-bottom {
     background-color: #303030;
@@ -821,12 +774,7 @@ option[disabled] {
 .footer-info p {
     text-align: center;
     margin-bottom: 0;
-    /*  color: #e6e6e6; */
 }
-
-/*.footer-info span {
-    color: red;    
-}*/
 
 .footer-info a {
     display: block;
@@ -851,7 +799,7 @@ option[disabled] {
     margin-bottom: 2px;
 }
 
-/* ANIMATIONS */
+/*              ------   ANIMATIONS - For Scroll Down Arrow Indicator */
 
 @keyframes jump {
     from {
@@ -863,7 +811,7 @@ option[disabled] {
     }
 }
 
-/*                                 MEDIA QUEIRES */
+/*              ------   MEDIA QUEIRES */
 
 @media (max-width: 575px) {
 
@@ -873,10 +821,6 @@ option[disabled] {
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-
-    .jumbotron span {
-        /*     color: white; */
-    }
 
     .jumbotron h1 {
         color: #00bae2;
@@ -944,7 +888,6 @@ option[disabled] {
 
     .jumbotron span {
         font-size: 1.25em;
-        /*   color: white; */
     }
 
     .jumbotron .lead {
