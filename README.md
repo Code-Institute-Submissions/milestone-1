@@ -23,17 +23,18 @@ From what I gathered on my research is that many of these sites only focused on 
 
 I then created a list on a piece of paper of what was worth doing and the importance and viability of all the features listed, and by doing so I managed to cut out a lot unnecessary features that would have otherwise cluttered up the website.
 
-At this stage I knew exactly what I wanted to do and I was visualizing the website and how it was going to look in my head. I then used the free trail of Balsamiq to layout the wireframes for this project.
+At this stage I knew exactly what I wanted to do, and in my head I was visualizing the website on how it was going to look. I then used the free trail of Balsamiq to layout the wireframes for this project.
 
 Click the link to view [Wireframes](https://github.com/thepixel8or/milestone-1/blob/master/assets/Wireframes/Milestone1-wireframes.pdf)   
 
 Click the link to view external [Wireframes](https://s3-us-west-2.amazonaws.com/giwebstuff/Milestone1_wireframes.pdf) 
 
-From the start I knew I wanted a dark colour theme, as I wanted to signify the mood of a dark nightclub. From my research I came across several colour theory and phycology websites and how colours can affect user’s moods, and from what I learnt is that blackish colours represents power, luxury, sophistication and elegance that evoke professionalism. The greyish colours represents neutral, simplicity, calm, futuristic and logic and is associated with technology and sophistication. This is exactly the mood I wanted to reflect from the website.   
+From the start I knew I wanted a dark colour theme, as I wanted to signify the mood of a dark nightclub. From my research I came across several colour theory and phycology websites,  on how colours can affect a user’s mood, and from what I learnt is that blackish colours represents power, luxury, sophistication and elegance that evoke professionalism. The greyish colours represents neutral, simplicity, calm, futuristic and logic and is associated with technology and sophistication. This is exactly the mood I wanted to reflect from the website.   
 
 ![Colour scheme](https://github.com/thepixel8or/milestone-1/raw/master/assets/images/Colour-Scheme.jpg "Colour Scheme")
 
-Along with the shades of black and grey, I had decided to use red, blue and green colours to represent the lights that you would see in a nightclub for use on icons and logos, this worked well, but later changed the shades of the red, blue and green colours to match that of the Music player embeds that I sourced from Beatport. The reason being is that I could not change the CSS for the player embeds and so I decided to match the colours to keep the site all the same colour theme.   
+Along with the shades of black and grey, I had decided to use red, blue and green colours as to represent the lights that you would see in a nightclub for the use on icons and logos, this worked well.   
+I later changed the shades of the red, blue and green colours to match that of the embedded music players that I sourced from Beatport. The reason being is that I could not change the CSS for the player embeds, and so I decided to match the colours throughout the website.   
 
 * **Colour Picker:** _I used the colour picker from W3Schools to get colour variations for highlighting the buttons colour on hover and selecting._   
  https://www.w3schools.com/colors/colors_picker.asp
@@ -75,15 +76,15 @@ Along with the shades of black and grey, I had decided to use red, blue and gree
 
 * **Features 3 - _Subscribe Button_**
  
-  - By clicking on the Subscribe button on the landing page the user gets a pop up modal where the user can input their email address and by clicking send will receive a monthly newsletter with all the latest information. This is intended for building up a lot of subscribers and fan base. (There is no back end server to this website and it’s just for educational purposes.)
+  - By clicking the Subscribe button on the landing page, the user receives a pop up modal where they can input their email address, and by clicking on send will receive a monthly newsletter with all the latest information. This is intended for building up a lot of subscribers and fan base. (_There is no back end server to this website for the send functions to work, it is only for educational and coursework purposes._)   
   
 * **Features 4 - _Book Now Button_**
 
    - The **Book Now** Button is to the right and is part of the Navbar, as with the Navbar the Book Now button will always be in view to the user as they scroll the page, when clicked it will bring you to the booking form destination where the user can fill in  a form to book a DJ for their club.
    
-* **Features 5 - _Rotating Icon_**
+* **Features 5 - _Rotating CD Icon_**
  
-   - The Deep house logo in the Navbar and centre of the landing page have an Icon that spins as you scroll the page, this is used just for user experience. Also the back to top Icon has the same rotation.
+   - The Deep house logo in the Navbar and centre of the landing page have a CD Icon that spins as you scroll the page, this is used just for user experience. Also the back to top indicator has the same rotating CD Icon.
 
 * **Features 6 - _Back to top indicator Icons_**
 
@@ -120,8 +121,8 @@ Along with the shades of black and grey, I had decided to use red, blue and gree
 
 * **Features 14 - _Booking Form_**
 
-   - The booking form section allows users to enter their First and second name, email and phone number which are required fields the user can also select a country and DJ from a dropdown list and enter a message but these fields are optional. By clicking the send now button the booking form information will be sent. (_There is no backend server set up for this project, and this is just used for educational  purposes._)
-
+   - The booking form section allows users to enter their First and Second name, plus Email and Phone number, and are all required fields. The user can also select a Country and DJ from a dropdown list and enter a message but these fields are optional. By clicking the send now button the booking form information will be sent. (_There is no backend server set up for this project, and is just used for educational and coursework purposes._)   
+    
 * **Features 15 - _Get in Touch_**
 
    - The get in touch section provides contact information to the user such as Address, Phone number and Email address. When the user mousses over the contact information there is a bobbing up effect.
@@ -153,10 +154,10 @@ Along with the shades of black and grey, I had decided to use red, blue and gree
 
 #### Photoshop - _Image editing_
 
-* Being an experienced Photoshop user I used the software to reduce the file size of all the images with the purpose of optimization to reduce loading times of the website, especially on mobile devices.  
-The original images sizes where between 4000 and 5000 pixels and approximately 3-5mb each on disk. I reduced the images to 1400 pixels, and anything below that size was causing noticeable aliasing. This reduction in size got each of the images to less than 1mb size on disk.
+* Being an experienced Photoshop user, I used the software to reduce the file size of all the images with the purpose of optimization and to reduce loading times of the website, especially on mobile devices.   
+The original images sizes where between 4000 and 5000 pixels and approximately 3-5mb each on disk. I reduced the images to 1400 pixels, as anything below that size was causing noticeable aliasing. This reduction in size got each of the images to less than 1mb size on disk.
 
-* I also used Photoshop to convert the DJ profile images to black and white and in the hue and saturation colour settings I got each image to the same level of brightness, I then added a colour tint of a darkish brown to make the images have a more warm and welcoming feel to them.
+*  I also used Photoshop to convert the DJ profile images to black and white, as well as changing the hue and saturation colour settings to bring each image to the same level of brightness. I then added a darkish brown colour tint to make the images have a nice warm and welcoming feel to them.   
 
 * **Dot Overlay Image**
 
@@ -356,7 +357,7 @@ ___
 1. **Subscribe Button:**
 
    **a.** _On the landing page I clicked on the "Subscribe" Button, and can verify that the pop up modal functions._  
-**b.**  _I tried to submit empty email form and can verify that a required now message appears._   
+**b.**  _I tried to submit an empty email form and can verify that a required now message appears._   
 **c.** _I tried to submit an invalid email an can verify that the relevant error message appears._  
 **d.** _Entered correct email format and can confirm that it works as intended._  
 **e.** _Clicked on the close button and X to close and can confirm that both function as intended._
@@ -376,13 +377,13 @@ ___
 
 ___
 
-**3. About Us - _DJ Profile Images_**   
+3. **About Us - _DJ Profile Images_**   
 
    **a.** _I moved my mouse over each DJ Profile image and I get a sliding overlay effect with DJ Information as intended_   
 
 ___
   
-3. **Media**   
+4. **Media**   
 
    **a.** _I moved my mouse over each of the club scene image and it creates a zoom effect and can confirm that it works as intended._  
    **b.** _I clicked play on YouTube video embeds and it plays the video as intended_  
@@ -391,31 +392,31 @@ ___
 
 ___
    
-4. **Event Listing**   
+5. **Event Listing**   
 
    **a.** _On smaller devices I can scroll horizontally on the events listings as intended_   
 ___
 
-5. **Boooking Form**   
+6. **Boooking Form**   
 
-   **a.** _I tried  to enter empty first name and can verify the required message appears __  
-   **b.** _I entered my first name and can verify that it works as intended_  
-   **c.** _I tried to enter empty second name and can verify that the required message appears __   
-   **d.** _I entered my second name and can verify that it works as intended_  
-   **e.**  _I tried to submit empty email form and can verify that a required now message appears ._   
-   **f.** _I tried to submit an invalid email an can verify that the relevant error message appears ._   
+   **a.** _I tried to enter empty first name and can verify the required message appears._  
+   **b.** _I entered my first name and can verify that it works as intended._  
+   **c.** _I tried to enter empty second name and can verify that the required message appears._    
+   **d.** _I entered my second name and can verify that it works as intended._  
+   **e.** _I tried to submit empty email form and can verify that a required now message appears._   
+   **f.** _I tried to submit an invalid email an can verify that the relevant error message appears._   
    **g.** _I entered the correct email format and can confirm that it works._   
-   **h.** _I tried to enter empty phone and can verify that the required message appears __   
-   **i.** _I tried to enter text and it does not input as intended_   
-   **j.** _I entered numbers and it works as intended_   
-   **k.** _I tried to select a county from the dropdown list and it works as intended and is optional_   
-   **l.** _I tried to select a DJ from the Dropdown list and it works as intended and is optional_   
-   **m.** _I entered text to the message field and it works as intended and it is optional_   
-   **n.** _I clicked on the send now button, and although it is not set up any backend servers, it works as intended to_   
+   **h.** _I tried to enter empty phone and can verify that the required message appears._  
+   **i.** _I tried to enter text in the phone section and it does not input as intended._   
+   **j.** _I entered numbers in the phone section and it works as intended._   
+   **k.** _I tried to select a county from the dropdown list and it works as intended. This field is optional._   
+   **l.** _I tried to select a DJ from the Dropdown list and it works as intended. This field is optional._   
+   **m.** _I entered text to the message field and it works as intended. This field is optional._   
+   **n.** _I clicked on the send now button and it works as intended. ( There is no backend server set up for this project, it is just intended for educational and coursework purposes. )_   
 
 ___
 
-6. **Get In touch Info**   
+7. **Get In touch Info**   
 
    **a.** _When I move my mouse over the get in touch address info I can confirm that it pops up and hovers._  
    **b.** _When I move my mouse over the get in touch phone info I can confirm that it pops up and hovers._  
@@ -423,13 +424,13 @@ ___
 
 ___
 
-7. **Social LInks**   
+8. **Social LInks**   
 
    **a.** _I clicked on all the social media icon links and I can verify that all links work as intended and open in a new window._
 
 ___
 
-8. **Scroll to Top**   
+9. **Scroll to Top**   
 
    **a.** _I clicked the scroll to top icon and I can verify that it works as intended_
 
@@ -459,11 +460,9 @@ ___
    
     http://jigsaw.w3.org/css-validator/#validate_by_input
 
+    https://aws.amazon.com/cloud9/
 
-
-https://aws.amazon.com/cloud9/
-
-https://getbootstrap.com/docs/4.1/getting-started/introduction/
+    https://getbootstrap.com/docs/4.1/getting-started/introduction/
 
 # Deployment
 
@@ -562,6 +561,6 @@ https://www.residentadvisor.net/dj/kerrichandler/biography
 
 * I'd like to thank my Code Institute mentor Chris Zielinski for his help and guidance on this project.
 
-*  I’d like to thank the Code Institute student care tutors for quick response to any questions I had and also for the encouraging emails that help to motivate me.
+*  I’d like to thank the Code Institute student care tutors for quick response to any questions I had, and also for the encouraging emails that help to motivate me.
 
-*   I’d like to thank the Code Institute slack community for the help and support with any questions I had and also the information and feedback I received.
+*   I’d like to thank the Code Institute slack community for the help and support with any questions I had, and also the information and feedback I received.
